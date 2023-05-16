@@ -1,0 +1,59 @@
+<script src="https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6">
+</script>
+<script type="text/javascript" src="../js/desmosregression.js">
+</script>
+
+<script type="text/javascript" src="../js/regfunction.js"></script>
+
+<div id="calculator" style="width: 600px; height: 400px;"></div>
+
+<script>
+
+    var elt = document.getElementById('calculator');
+    var calculator = Desmos.GraphingCalculator(elt);
+    calculator.setExpression(
+        {
+            type: 'table',
+
+            columns: [
+                {
+                    latex: 'x_1',
+                    values: [' 1', ' 0.481333', ' 1.22222'],
+                },
+                {
+                    latex: 'y_1',
+                    values: [' 0.0016665', ' 0.176593', ' 0.0010908'],
+                }
+            ]
+
+        });
+
+    var elements = {};
+    //wait until regression is complete then look for 
+    //source of wait functions: https://stackoverflow.com/questions/16149431/make-function-wait-until-element-exists/47776379
+calculator.setExpression({ id: 'regression', type: 'expression', latex: 'y_1~\\frac{L}{1+e^{n(x_1-S)}} +C\\{L > 0\\}' });
+    //array = document.getElementsByClassName("dcg-tooltip-hit-area-container");
+    //console.log(array);
+    calculator.focusFirstExpression();
+    calculator.resize();
+
+
+    //metadata setter
+var RATEVAR = "kmp";
+var COMPVAR = "O2";
+//metadata ender
+        var result = getRegressionValues(COMPVAR, RATEVAR);
+
+
+</script>
+
+<div id="sendValues">
+
+    <form action="http://127.0.0.1:8080/sendparams" method="post">
+        <fieldset>
+            <label for="reg class">RegClass:</label>
+            <input type="text" id="stringy" name="name" placeholder="DATA GOES HERE" />
+            <input type="submit" id="CLICKME" value="Send message" />
+        </fieldset>
+    </form>
+</div>

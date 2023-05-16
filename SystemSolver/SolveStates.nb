@@ -1,0 +1,698 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     25673,        690]
+NotebookOptionsPosition[     23995,        655]
+NotebookOutlinePosition[     24453,        672]
+CellTagsIndexPosition[     24410,        669]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Solving W, Y, and D states", "Title",
+ CellChangeTimes->{{3.892832481611802*^9, 
+  3.8928324941239443`*^9}},ExpressionUUID->"3892096d-616e-403b-8d66-\
+b35dd3906185"],
+
+Cell["\<\
+The three states represent W (wild type), Y (Yfh1 deletion), and D (iron \
+deficient/starved). We must solve them given some independent rates. \
+Fortunately, some parts are constant throughout solving the remaining states. \
+\>", "Text",
+ CellChangeTimes->{{3.8928325840521927`*^9, 3.892832645269149*^9}, {
+  3.8929033212038355`*^9, 
+  3.892903327088215*^9}},ExpressionUUID->"d990d600-edde-4715-b3ca-\
+6829a613bf89"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"SetDirectory", "[", 
+   RowBox[{"NotebookDirectory", "[", "]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"SolveState", "[", 
+   RowBox[{
+   "componentsRateFilePath_", ",", " ", "ratesFilePath_", ",", " ", "FC_", 
+    ",", " ", "CIA_", ",", " ", "F2_", ",", " ", "F3_", ",", " ", "FM_", ",", 
+    " ", "FS_", ",", " ", "MP_", ",", " ", "O2_", ",", " ", "IRON_", ",", " ",
+     "alpha_", ",", " ", "kisu_", ",", " ", "kcyt_", ",", " ", "kmit_", ",", 
+    " ", "kvac_", ",", " ", "kcia_", ",", "kmp_", ",", " ", "kO2_", ",", 
+    "k23_", ",", "solveFor_"}], "]"}], " ", ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+     "Kcyt", ",", " ", "Kmit", ",", " ", "Kvac", ",", " ", "Kcia", ",", " ", 
+      "Kisu", ",", " ", "KF2", ",", " ", "O2SP", ",", " ", "OXYGEN", ",", " ",
+       "CARBON", ",", "  ", "Rcyt", ",", " ", "Rmit", ",", " ", "Rvac", ",", 
+      " ", "Rcia", ",", " ", "Risu", ",", " ", "Rmp", ",", " ", "RO2", ",", 
+      " ", "Rres", ",", " ", "kres", ",", " ", "KresO2", ",", " ", "R23", ",",
+       " ", "fcyt", ",", " ", ",", " ", "fmit", ",", " ", "fvac", ",", " ", 
+      "ode1", ",", "ode2", ",", "ode3", ",", "ode4", ",", "ode5", ",", "ode6",
+       ",", "ode7", ",", "ode8", ",", " ", "results", ",", " ", "stream", ",",
+       "didDelete"}], "}"}], ",", "\[IndentingNewLine]", 
+    "\[IndentingNewLine]", "\[IndentingNewLine]", 
+    RowBox[{"(*", " ", 
+     RowBox[{
+      RowBox[{"Set", " ", "Michaelis"}], "-", 
+      RowBox[{"Menten", " ", "constants"}]}], " ", "*)"}], 
+    "\[IndentingNewLine]", "\n", 
+    RowBox[{
+     RowBox[{"Kcyt", "=", "10"}], ";", "\n", 
+     RowBox[{"Kmit", "=", "20"}], ";", "\n", 
+     RowBox[{"Kvac", "=", "20"}], ";", "\n", 
+     RowBox[{"Kcia", "=", "20"}], ";", "\n", 
+     RowBox[{"Kisu", "=", "100"}], ";", "\n", 
+     RowBox[{"KresO2", " ", "=", " ", "1"}], ";", "\n", 
+     RowBox[{"KF2", "=", "200"}], ";", "\n", 
+     RowBox[{"O2SP", "=", "1"}], ";", "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+      "Set", " ", "external", " ", "environmental", " ", "variables"}], 
+      "*)"}], "\n", 
+     RowBox[{"OXYGEN", "=", "100"}], ";", "\[IndentingNewLine]", "\n", 
+     RowBox[{"CARBON", "=", "100"}], ";", "\n", "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{"Set", " ", "rate", " ", "expressions"}], "*)"}], "\n", 
+     RowBox[{"Rcyt", "=", 
+      RowBox[{"kcyt", "*", 
+       RowBox[{"IRON", "/", 
+        RowBox[{"(", 
+         RowBox[{"Kcyt", "+", "IRON"}], ")"}]}]}]}], ";", "\n", 
+     RowBox[{"Rmit", "=", 
+      RowBox[{"kmit", "*", 
+       RowBox[{"FC", "/", 
+        RowBox[{"(", 
+         RowBox[{"Kmit", "+", "FC"}], ")"}]}]}]}], ";", "\n", 
+     RowBox[{"Rvac", "=", 
+      RowBox[{"kvac", "*", 
+       RowBox[{"FC", "/", 
+        RowBox[{"(", 
+         RowBox[{"Kvac", "+", "FC"}], ")"}]}]}]}], ";", "\n", 
+     RowBox[{"Rcia", "=", 
+      RowBox[{"kcia", "*", 
+       RowBox[{"FC", "/", 
+        RowBox[{"(", 
+         RowBox[{"Kcia", "+", "FC"}], ")"}]}]}]}], ";", "\n", 
+     RowBox[{"Risu", "=", 
+      RowBox[{"kisu", "*", 
+       RowBox[{"FM", "/", 
+        RowBox[{"(", 
+         RowBox[{"Kisu", "+", "FM"}], ")"}]}], "*", 
+       RowBox[{"(", 
+        RowBox[{"O2SP", "/", 
+         RowBox[{"(", 
+          RowBox[{"O2SP", "+", "O2"}], ")"}]}], ")"}]}]}], ";", "\n", 
+     RowBox[{"Rmp", "=", 
+      RowBox[{"kmp", "*", "FM", "*", "O2"}]}], ";", "\n", 
+     RowBox[{"RO2", "=", 
+      RowBox[{"kO2", "*", 
+       RowBox[{"(", 
+        RowBox[{"OXYGEN", "-", "O2"}], ")"}]}]}], ";", "\n", 
+     RowBox[{"Rres", "=", 
+      RowBox[{"kres", "*", "FS", "*", 
+       RowBox[{"O2", "/", 
+        RowBox[{"(", 
+         RowBox[{"KresO2", "+", "O2"}], ")"}]}]}]}], ";", "\n", 
+     RowBox[{"R23", "=", 
+      RowBox[{"k23", "*", 
+       RowBox[{"F2", "/", 
+        RowBox[{"(", 
+         RowBox[{"KF2", "+", "F2"}], ")"}]}], "*", "OXYGEN"}]}], ";", 
+     "\[IndentingNewLine]", "\n", 
+     RowBox[{"fcyt", "=", "0.8"}], ";", "\n", 
+     RowBox[{"fmit", "=", "0.1"}], ";", "\n", 
+     RowBox[{"fvac", "=", "0.1"}], ";", "\n", 
+     RowBox[{"kres", "=", "36.3636363636363636363636"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{"Set", " ", "ODEs"}], "*)"}], "\n", 
+     RowBox[{"ode1", "=", 
+      RowBox[{"0", "==", 
+       RowBox[{"Rcyt", "-", "Rvac", "-", "Rmit", "-", "Rcia", "-", 
+        RowBox[{"alpha", "*", "FC"}]}]}]}], ";", "\n", 
+     RowBox[{"ode2", "=", 
+      RowBox[{"0", "==", 
+       RowBox[{"Rcia", "-", 
+        RowBox[{"alpha", "*", "CIA"}]}]}]}], ";", "\n", 
+     RowBox[{"ode3", "=", 
+      RowBox[{"0", "==", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"fcyt", "/", "fvac"}], "*", "Rvac"}], "-", "R23", "-", 
+        RowBox[{"alpha", "*", "F2"}]}]}]}], ";", "\n", 
+     RowBox[{"ode4", "=", 
+      RowBox[{"0", "==", 
+       RowBox[{"R23", "-", 
+        RowBox[{"alpha", "*", "F3"}]}]}]}], ";", "\n", 
+     RowBox[{"ode5", "=", 
+      RowBox[{"0", "==", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"fcyt", "/", "fmit"}], "*", "Rmit"}], "-", "Risu", "-", 
+        "Rmp", "-", 
+        RowBox[{"alpha", "*", "FM"}]}]}]}], ";", "\n", 
+     RowBox[{"ode6", "=", 
+      RowBox[{"0", "==", 
+       RowBox[{"Risu", "-", 
+        RowBox[{"alpha", "*", "FS"}]}]}]}], ";", "\n", 
+     RowBox[{"ode7", "=", 
+      RowBox[{"0", "==", 
+       RowBox[{"Rmp", "-", 
+        RowBox[{"alpha", "*", "MP"}]}]}]}], ";", "\n", 
+     RowBox[{"ode8", "=", 
+      RowBox[{"0", "==", 
+       RowBox[{"RO2", "-", "Rmp", "-", "Rres", "-", 
+        RowBox[{"alpha", "*", "O2"}]}]}]}], ";", "\[IndentingNewLine]", "\n", 
+     "\n", 
+     RowBox[{"results", "=", 
+      RowBox[{"NSolve", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+         "ode1", ",", "ode2", ",", "ode3", ",", "ode4", ",", "ode5", ",", 
+          "ode6", ",", "ode7", ",", "ode8"}], "}"}], ",", "solveFor", ",", 
+        "Reals"}], "]"}]}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+      "Extract", " ", "solved", " ", "variables", " ", "values", " ", "from", 
+       " ", "NSolve", " ", "output"}], "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"Set", " ", "@@@", " ", 
+      RowBox[{"results", "[", 
+       RowBox[{"[", "1", "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"didDelete", " ", "=", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"FileExistsQ", "[", "componentsRateFilePath", "]"}], ",", 
+        RowBox[{"DeleteFile", "[", "componentsRateFilePath", "]"}], ",", 
+        "0"}], " ", "]"}]}], ";", "\n", "\n", 
+     RowBox[{"CreateFile", "[", "componentsRateFilePath", "]"}], ";", "\n", 
+     RowBox[{"stream", "=", 
+      RowBox[{"OpenAppend", "[", "componentsRateFilePath", "]"}]}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", "\"\<Variable, Value\\n\>\""}], "]"}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<FC, \>\"", "<>", 
+        RowBox[{"ToString", "[", "FC", "]"}], "<>", "\"\<\\n\>\""}]}], "]"}], 
+     ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<CIA, \>\"", "<>", 
+        RowBox[{"ToString", "[", "CIA", "]"}], "<>", "\"\<\\n\>\""}]}], "]"}],
+      ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<F2, \>\"", "<>", 
+        RowBox[{"ToString", "[", "F2", "]"}], "<>", "\"\<\\n\>\""}]}], "]"}], 
+     ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<F3, \>\"", "<>", 
+        RowBox[{"ToString", "[", "F3", "]"}], "<>", "\"\<\\n\>\""}]}], "]"}], 
+     ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<FM, \>\"", "<>", 
+        RowBox[{"ToString", "[", "FM", "]"}], "<>", "\"\<\\n\>\""}]}], "]"}], 
+     ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<FS, \>\"", "<>", 
+        RowBox[{"ToString", "[", "FS", "]"}], "<>", "\"\<\\n\>\""}]}], "]"}], 
+     ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<MP, \>\"", "<>", 
+        RowBox[{"ToString", "[", "MP", "]"}], "<>", "\"\<\\n\>\""}]}], "]"}], 
+     ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<O2, \>\"", "<>", 
+        RowBox[{"ToString", "[", "O2", "]"}], "<>", "\"\<\\n\>\""}]}], "]"}], 
+     ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<kcia, \>\"", "<>", 
+        RowBox[{"ToString", "[", "kcia", "]"}], "<>", "\"\<\\n\>\""}]}], 
+      "]"}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<kvac, \>\"", "<>", 
+        RowBox[{"ToString", "[", "kvac", "]"}], "<>", "\"\<\\n\>\""}]}], 
+      "]"}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<kmit, \>\"", "<>", 
+        RowBox[{"ToString", "[", "kmit", "]"}], "<>", "\"\<\\n\>\""}]}], 
+      "]"}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<k23, \>\"", "<>", 
+        RowBox[{"ToString", "[", "k23", "]"}], "<>", "\"\<\\n\>\""}]}], "]"}],
+      ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<kcyt, \>\"", "<>", 
+        RowBox[{"ToString", "[", "kcyt", "]"}], "<>", "\"\<\\n\>\""}]}], 
+      "]"}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<kO2, \>\"", "<>", 
+        RowBox[{"ToString", "[", "kO2", "]"}], "<>", "\"\<\\n\>\""}]}], "]"}],
+      ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<kres, \>\"", "<>", 
+        RowBox[{"ToString", "[", "kres", "]"}], "<>", "\"\<\\n\>\""}]}], 
+      "]"}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<kisu, \>\"", "<>", 
+        RowBox[{"ToString", "[", "kisu", "]"}], "<>", "\"\<\\n\>\""}]}], 
+      "]"}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<kmp, \>\"", "<>", 
+        RowBox[{"ToString", "[", "kmp", "]"}], "<>", "\"\<\\n\>\""}]}], "]"}],
+      ";", "\n", 
+     RowBox[{"Close", "[", "stream", "]"}], ";", "\n", "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+      "Store", " ", "actual", " ", "rates", " ", "for", " ", "reference"}], 
+      "*)"}], "\[IndentingNewLine]", "\n", 
+     RowBox[{"didDelete", " ", "=", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"FileExistsQ", "[", "ratesFilePath", "]"}], ",", 
+        RowBox[{"DeleteFile", "[", "ratesFilePath", "]"}], ",", "0"}], " ", 
+       "]"}]}], ";", "\n", 
+     RowBox[{"CreateFile", "[", "ratesFilePath", "]"}], ";", "\n", 
+     RowBox[{"stream", "=", 
+      RowBox[{"OpenAppend", "[", "ratesFilePath", "]"}]}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", "\"\<Rate, Value\\n\>\""}], "]"}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<Rcia, \>\"", "<>", 
+        RowBox[{"ToString", "[", "Rcia", "]"}], "<>", "\"\<\\n\>\""}]}], 
+      "]"}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<R23, \>\"", "<>", 
+        RowBox[{"ToString", "[", "R23", "]"}], "<>", "\"\<\\n\>\""}]}], "]"}],
+      ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<Risu, \>\"", "<>", 
+        RowBox[{"ToString", "[", "Risu", "]"}], "<>", "\"\<\\n\>\""}]}], 
+      "]"}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<Rmp, \>\"", "<>", 
+        RowBox[{"ToString", "[", "Rmp", "]"}], "<>", "\"\<\\n\>\""}]}], "]"}],
+      ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<Rvac, \>\"", "<>", 
+        RowBox[{"ToString", "[", "Rvac", "]"}], "<>", "\"\<\\n\>\""}]}], 
+      "]"}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<Rmit, \>\"", "<>", 
+        RowBox[{"ToString", "[", "Rmit", "]"}], "<>", "\"\<\\n\>\""}]}], 
+      "]"}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<Rcyt, \>\"", "<>", 
+        RowBox[{"ToString", "[", "Rcyt", "]"}], "<>", "\"\<\\n\>\""}]}], 
+      "]"}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<Rres, \>\"", "<>", 
+        RowBox[{"ToString", "[", "Rres", "]"}], "<>", "\"\<\\n\>\""}]}], 
+      "]"}], ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<RO2, \>\"", "<>", 
+        RowBox[{"ToString", "[", "RO2", "]"}], "<>", "\"\<\\n\>\""}]}], "]"}],
+      ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<DFC, \>\"", "<>", 
+        RowBox[{"ToString", "[", 
+         RowBox[{"alpha", "*", "FC"}], "]"}], "<>", "\"\<\\n\>\""}]}], "]"}], 
+     ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<DCIA, \>\"", "<>", 
+        RowBox[{"ToString", "[", 
+         RowBox[{"alpha", "*", "CIA"}], "]"}], "<>", "\"\<\\n\>\""}]}], "]"}],
+      ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<DF2, \>\"", "<>", 
+        RowBox[{"ToString", "[", 
+         RowBox[{"alpha", "*", "F2"}], "]"}], "<>", "\"\<\\n\>\""}]}], "]"}], 
+     ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<DF3, \>\"", "<>", 
+        RowBox[{"ToString", "[", 
+         RowBox[{"alpha", "*", "F3"}], "]"}], "<>", "\"\<\\n\>\""}]}], "]"}], 
+     ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<DFM, \>\"", "<>", 
+        RowBox[{"ToString", "[", 
+         RowBox[{"alpha", "*", "FM"}], "]"}], "<>", "\"\<\\n\>\""}]}], "]"}], 
+     ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<DFS, \>\"", "<>", 
+        RowBox[{"ToString", "[", 
+         RowBox[{"alpha", "*", "FS"}], "]"}], "<>", "\"\<\\n\>\""}]}], "]"}], 
+     ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<DMP, \>\"", "<>", 
+        RowBox[{"ToString", "[", 
+         RowBox[{"alpha", "*", "MP"}], "]"}], "<>", "\"\<\\n\>\""}]}], "]"}], 
+     ";", "\n", 
+     RowBox[{"WriteString", "[", 
+      RowBox[{"stream", ",", 
+       RowBox[{"\"\<DO2, \>\"", "<>", 
+        RowBox[{"ToString", "[", 
+         RowBox[{"alpha", "*", "O2"}], "]"}], "<>", "\"\<\\n\>\""}]}], "]"}], 
+     ";", "\n", 
+     RowBox[{"Close", "[", "stream", "]"}], ";"}]}], "\[IndentingNewLine]", 
+   "]"}]}]}], "Input",
+ CellChangeTimes->{{3.892832503541293*^9, 3.892832527332965*^9}, 
+   3.892832738445135*^9, {3.892832838322061*^9, 3.8928328408634768`*^9}, {
+   3.892832980892544*^9, 3.892832997896412*^9}, {3.892833067459647*^9, 
+   3.89283310902852*^9}, {3.892833163631373*^9, 3.892833362730927*^9}, {
+   3.892833396095584*^9, 3.8928335529382477`*^9}, {3.89283365153026*^9, 
+   3.892833694706262*^9}, {3.892834033369318*^9, 3.892834037950534*^9}, {
+   3.8928340833023453`*^9, 3.892834114390505*^9}, {3.892834167072258*^9, 
+   3.892834186346663*^9}, 3.892834237169277*^9, {3.8928343371374187`*^9, 
+   3.892834453404724*^9}, 3.892834539382921*^9, {3.892834582510729*^9, 
+   3.892834715750875*^9}, {3.89283480767994*^9, 3.892834855173641*^9}, 
+   3.8928349647665987`*^9, {3.892835096303135*^9, 3.8928350967999353`*^9}, {
+   3.892835373963336*^9, 3.892835385166348*^9}, {3.8928355919220057`*^9, 
+   3.8928355956201773`*^9}, {3.8928358460035887`*^9, 3.89283585469746*^9}, {
+   3.892835987659216*^9, 3.892836046838361*^9}, {3.89283611857025*^9, 
+   3.8928361215753593`*^9}, {3.892836170832848*^9, 3.892836176311686*^9}, {
+   3.8928378899310303`*^9, 3.8928378935799007`*^9}, {3.8928379667533827`*^9, 
+   3.892837968673408*^9}, {3.8929026826901584`*^9, 3.8929026832836323`*^9}, {
+   3.892902907475006*^9, 3.89290303932852*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"6edf3f01-b7c1-4284-8fd4-014273490d70"],
+
+Cell["We\[CloseCurlyQuote]ll solve the W state first. ", "Text",
+ CellChangeTimes->{{3.892837979087111*^9, 
+  3.8928379915833197`*^9}},ExpressionUUID->"ccc3753b-dcf3-46f0-b041-\
+f9299d297b73"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"SolveState", "[", 
+   RowBox[{
+   "\"\<wildtypecomponents.txt\>\"", ",", "\"\<wildtyperates.txt\>\"", ",", 
+    "20", ",", "80", ",", "200", ",", "3400", ",", "100", ",", "500", ",", 
+    "50", ",", "1", ",", "40", ",", "0.003333", ",", "  ", "kisuW", ",", " ", 
+    "kcytW", ",", " ", "kmitW", ",", " ", "kvacW", ",", " ", "kciaW", ",", 
+    "kmpW", ",", " ", "kO2W", ",", "k23W", ",", 
+    RowBox[{"{", 
+     RowBox[{
+     "kisuW", ",", " ", "kcytW", ",", " ", "kmitW", ",", " ", "kvacW", ",", 
+      " ", "kciaW", ",", "kmpW", ",", " ", "kO2W", ",", "k23W"}], "}"}]}], 
+   "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"FilePrint", "[", "\"\<wildtypecomponents.txt\>\"", 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"FilePrint", "[", "\"\<wildtyperates.txt\>\"", "]"}]}], "Input",
+ CellChangeTimes->{{3.892833939730682*^9, 3.8928339681228333`*^9}, {
+  3.892834149754098*^9, 3.8928341500292873`*^9}, {3.8928342518970757`*^9, 
+  3.892834265885338*^9}, {3.8928347325347443`*^9, 3.892834747812525*^9}, {
+  3.8928352994129343`*^9, 3.892835312930072*^9}, {3.8928353914522057`*^9, 
+  3.8928354087375717`*^9}, {3.8929027209443045`*^9, 3.8929027468007774`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"94492f4c-46d9-42bb-9c4d-a688fb1cba31"],
+
+Cell["\<\
+Variable, Value
+FC, 20
+CIA, 80
+F2, 200
+F3, 3400
+FM, 100
+FS, 500
+MP, 50
+O2, 1
+kcia, 0.53328
+kvac, 2.9997
+kmit, 0.541613
+k23, 0.226644
+kcyt, 2.62995
+kO2, 91.8291
+kres, 36.363636363636363636364
+kisu, 6.666
+kmp, 0.0016665
+Rate, Value
+Rcia, 0.26664
+R23, 11.3322
+Risu, 1.6665
+Rmp, 0.16665
+Rvac, 1.49985
+Rmit, 0.270806
+Rcyt, 2.10396
+Rres, 9090.9090909090909090909
+RO2, 9091.08
+DFC, 0.06666
+DCIA, 0.26664
+DF2, 0.6666
+DF3, 11.3322
+DFM, 0.3333
+DFS, 1.6665
+DMP, 0.16665
+DO2, 0.003333\
+\>", "Print",
+ CellChangeTimes->{3.892903054180995*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"fdddc41a-2431-400e-8a8f-f4822fad5be0"]
+}, Open  ]],
+
+Cell["Next, we\[CloseCurlyQuote]ll solve the Y state. ", "Text",
+ CellChangeTimes->{{3.892838005255166*^9, 
+  3.892838013582748*^9}},ExpressionUUID->"afe42481-e6a5-4ca9-aa64-\
+edc9ee56f699"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"SolveState", "[", 
+     RowBox[{
+     "\"\<yfh1components.txt\>\"", ",", "\"\<yfh1rates.txt\>\"", ",", "10", 
+      ",", "70", ",", "30", ",", "420", ",", "200", ",", "150", ",", "8500", 
+      ",", "O2Y", ",", "40", ",", "0.002", ",", "  ", 
+      RowBox[{"6.666", "/", "10"}], ",", " ", "kcytY", ",", " ", "kmitY", ",",
+       " ", "kvacY", ",", " ", "kciaY", ",", "kmpY", ",", " ", "kO2Y", ",", 
+      "k23Y", ",", 
+      RowBox[{"{", " ", 
+       RowBox[{
+       "kcytY", ",", " ", "kmitY", ",", " ", "kvacY", ",", " ", "kciaY", ",", 
+        "kmpY", ",", " ", "kO2Y", ",", "k23Y", ",", "O2Y"}], "}"}]}], "]"}], 
+    ";"}], "\[IndentingNewLine]", 
+   RowBox[{"FilePrint", "[", "\"\<yfh1components.txt\>\"", "]"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"FilePrint", "[", "\"\<yfh1rates.txt\>\"", "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.89283476946725*^9, 3.8928347745725594`*^9}, {
+  3.892835111613751*^9, 3.892835154601078*^9}, {3.8928351885943623`*^9, 
+  3.892835275955614*^9}, {3.892835320193783*^9, 3.892835337633019*^9}, {
+  3.8928354447068443`*^9, 3.892835459216756*^9}, {3.8928378837221727`*^9, 
+  3.8928378840376987`*^9}, {3.8929027535972414`*^9, 3.8929027799659386`*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"89d6b8a7-96ae-4718-b900-9de52035c6be"],
+
+Cell["\<\
+Variable, Value
+FC, 10
+CIA, 70
+F2, 30
+F3, 420
+FM, 200
+FS, 150
+MP, 8500
+O2, 0.481333
+kcia, 0.42
+kvac, 0.3375
+kmit, 6.6375
+k23, 0.0644
+kcyt, 3.10625
+kO2, 17.9801
+kres, 36.363636363636363636364
+kisu, 0.6666
+kmp, 0.176593
+Rate, Value
+Rcia, 0.14
+R23, 0.84
+Risu, 0.3
+Rmp, 17.
+Rvac, 0.1125
+Rmit, 2.2125
+Rcyt, 2.485
+Rres, 1772.36
+RO2, 1789.36
+DFC, 0.02
+DCIA, 0.14
+DF2, 0.06
+DF3, 0.84
+DFM, 0.4
+DFS, 0.3
+DMP, 17.
+DO2, 0.000962667\
+\>", "Print",
+ CellChangeTimes->{3.8929030543064404`*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"24fe98f4-2fba-4434-81c7-1e950792c500"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.892834778035595*^9, 3.892834778038378*^9}, 
+   3.8928357372381477`*^9, 3.892837882324615*^9},
+ CellLabel->"In[9]:=",ExpressionUUID->"2d541bd1-d7e1-4d78-ba37-b91e42a5f036"],
+
+Cell["Finally, we will solve the D state. ", "Text",
+ CellChangeTimes->{{3.8928380186787663`*^9, 
+  3.892838023502502*^9}},ExpressionUUID->"dd9a923e-a438-4560-a2c4-\
+8d5c94edd704"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"SolveState", "[", 
+   RowBox[{
+   "\"\<dcomponents.txt\>\"", ",", "\"\<drates.txt\>\"", ",", "5", ",", "68", 
+    ",", "20", ",", "60", ",", "50", ",", "300", ",", "20", ",", "O2D", ",", 
+    "1", ",", "0.003333", ",", "  ", "6.666", ",", " ", "kcytD", ",", " ", 
+    "kmitD", ",", " ", "kvacD", ",", " ", "kciaD", ",", "kmpD", ",", " ", 
+    "kO2D", ",", "k23D", ",", 
+    RowBox[{"{", " ", 
+     RowBox[{
+     "kcytD", ",", " ", "kmitD", ",", " ", "kvacD", ",", " ", "kciaD", ",", 
+      "kmpD", ",", " ", "kO2D", ",", "k23D", ",", "O2D"}], "}"}]}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"FilePrint", "[", "\"\<dcomponents.txt\>\"", 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{"FilePrint", "[", "\"\<drates.txt\>\"", "]"}]}], "Input",
+ CellChangeTimes->{{3.8928378638291407`*^9, 3.8928379525608892`*^9}, {
+  3.892838047763307*^9, 3.892838106703582*^9}, {3.892902785315859*^9, 
+  3.892902806111887*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"87964e8b-52e0-4326-a1f1-766315176adb"],
+
+Cell["\<\
+Variable, Value
+FC, 5
+CIA, 68
+F2, 20
+F3, 60
+FM, 50
+FS, 300
+MP, 20
+O2, 1.22222
+kcia, 1.13322
+kvac, 0.16665
+kmit, 0.770756
+k23, 0.0219978
+kcyt, 4.73869
+kO2, 60.7431
+kres, 36.363636363636363636364
+kisu, 6.666
+kmp, 0.0010908
+Rate, Value
+Rcia, 0.226644
+R23, 0.19998
+Risu, 0.9999
+Rmp, 0.06666
+Rvac, 0.03333
+Rmit, 0.154151
+Rcyt, 0.43079
+Rres, 6000.
+RO2, 6000.07
+DFC, 0.016665
+DCIA, 0.226644
+DF2, 0.06666
+DF3, 0.19998
+DFM, 0.16665
+DFS, 0.9999
+DMP, 0.06666
+DO2, 0.00407367\
+\>", "Print",
+ CellChangeTimes->{3.8929030543382263`*^9},
+ CellLabel->
+  "During evaluation of \
+In[10]:=",ExpressionUUID->"13617af7-c46a-4dd7-927b-c20c4a40d395"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1270.6666666666667`, 679.},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+TaggingRules-><|"TryRealOnly" -> False|>,
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"6ca716ef-2292-45a6-852b-3b7185126b92"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 171, 3, 98, "Title",ExpressionUUID->"3892096d-616e-403b-8d66-b35dd3906185"],
+Cell[754, 27, 427, 8, 58, "Text",ExpressionUUID->"d990d600-edde-4715-b3ca-6829a613bf89"],
+Cell[1184, 37, 16363, 384, 2027, "Input",ExpressionUUID->"6edf3f01-b7c1-4284-8fd4-014273490d70"],
+Cell[17550, 423, 192, 3, 35, "Text",ExpressionUUID->"ccc3753b-dcf3-46f0-b041-f9299d297b73"],
+Cell[CellGroupData[{
+Cell[17767, 430, 1268, 22, 86, "Input",ExpressionUUID->"94492f4c-46d9-42bb-9c4d-a688fb1cba31"],
+Cell[19038, 454, 643, 41, 619, "Print",ExpressionUUID->"fdddc41a-2431-400e-8a8f-f4822fad5be0"]
+}, Open  ]],
+Cell[19696, 498, 190, 3, 35, "Text",ExpressionUUID->"afe42481-e6a5-4ca9-aa64-edc9ee56f699"],
+Cell[CellGroupData[{
+Cell[19911, 505, 1348, 25, 105, "Input",ExpressionUUID->"89d6b8a7-96ae-4718-b900-9de52035c6be"],
+Cell[21262, 532, 592, 41, 619, "Print",ExpressionUUID->"24fe98f4-2fba-4434-81c7-1e950792c500"]
+}, Open  ]],
+Cell[21869, 576, 220, 3, 28, "Input",ExpressionUUID->"2d541bd1-d7e1-4d78-ba37-b91e42a5f036"],
+Cell[22092, 581, 180, 3, 35, "Text",ExpressionUUID->"dd9a923e-a438-4560-a2c4-8d5c94edd704"],
+Cell[CellGroupData[{
+Cell[22297, 588, 1030, 20, 86, "Input",ExpressionUUID->"87964e8b-52e0-4326-a1f1-766315176adb"],
+Cell[23330, 610, 637, 41, 619, "Print",ExpressionUUID->"13617af7-c46a-4dd7-927b-c20c4a40d395"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
