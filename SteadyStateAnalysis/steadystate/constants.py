@@ -29,3 +29,14 @@ STATES[FM] = [100, 200, 50]
 STATES[FS] = [500, 150, 300]
 STATES[MP] = [50, 8500, 20]
 STATES[O2] = [1.0, 0.481333, 1.22222]
+
+# plot info
+COLOR_MAP = dict()
+COLOR_MAP[MP] = 'b'
+COLOR_MAP[FC] = 'r'
+COLOR_MAP[F2] = 'g'
+COLOR_MAP[CIA] = 'orange'
+COLOR_MAP[F3] = 'purple'
+COLOR_MAP[FS] = 'black'
+COLOR_MAP[FM] = 'cyan'
+COLOR_MAP[O2] = 'magenta'

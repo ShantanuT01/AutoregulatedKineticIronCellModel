@@ -40,7 +40,19 @@ class CellularRegulatoryMechanism:
                         spError += abs(row["SP"] - meanSpecies)/meanSpecies
         return spError + nError
 
-                        
+    def getStateTransitionData(self, state):
+        if state == 'Y':
+            df = self.ystate.data
+            ind = self.ystate.independent
+        else:
+            df = self.dstate.data
+            ind = self.dstate.independent
+        ret = dict()
+        ret[ind] = df[ind].values
+        for component in constants.COMPONENTS:
+            ret[component] = df[component].values/max(constants.STATES[component])
+        return ret
+
 
 
     def __str__(self) -> str:
