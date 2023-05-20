@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1314893,      23221]
-NotebookOptionsPosition[   1310625,      23140]
-NotebookOutlinePosition[   1311121,      23158]
-CellTagsIndexPosition[   1311078,      23155]
+NotebookDataLength[   1320645,      23344]
+NotebookOptionsPosition[   1316377,      23263]
+NotebookOutlinePosition[   1316873,      23281]
+CellTagsIndexPosition[   1316830,      23278]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -6141,8 +6141,9 @@ OCr64HXD9n82mKkNuWP7avP/AEpaf70=
       SelectWithContents->True,
       Selectable->False]}]}], "}"}], "}"}]], "Output",
  CellChangeTimes->{
-  3.893260763414076*^9, {3.893260819923902*^9, 3.8932608491829424`*^9}},
- CellLabel->"Out[22]=",ExpressionUUID->"ee1de053-e4b7-4acf-b0b8-285707b404de"]
+  3.893260763414076*^9, {3.893260819923902*^9, 3.8932608491829424`*^9}, 
+   3.893526785934059*^9},
+ CellLabel->"Out[22]=",ExpressionUUID->"40436ab9-cb60-4541-bd4b-9793b94a8916"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6410,8 +6411,9 @@ e77VMCzUtseE/D8oy9Fr
      Scaled[0.02]}, {0, 0}},
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{
-  3.8932607634705963`*^9, {3.8932608266418533`*^9, 3.8932608492619143`*^9}},
- CellLabel->"Out[25]=",ExpressionUUID->"52ed33f3-a867-476f-bf2a-35d82c1b9ab2"]
+  3.8932607634705963`*^9, {3.8932608266418533`*^9, 3.8932608492619143`*^9}, 
+   3.8935267860085707`*^9},
+ CellLabel->"Out[25]=",ExpressionUUID->"899bf957-5d1c-46b9-9e08-8321ee50a5b5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6748,7 +6750,7 @@ tHUZSOr6aW/nB2+7RqJNGXw+UqiFefh7wFSJXRlc3d29nV+6BopPtjmVwXA8
 nybmZq0Gz9cuZZCronVyO5886SONu5bB2neP7fxUcfjri3n3MhhPzlHHXEz9
 vbblUQa6Cm3b+ex/6ndD2w==
        "]]},
-     Annotation[#, "Charting`Private`Tag$2611#1"]& ]}, {}},
+     Annotation[#, "Charting`Private`Tag$2602#1"]& ]}, {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{
@@ -6788,8 +6790,9 @@ vbblUQa6Cm3b+ex/6ndD2w==
      Scaled[0.02], 
      Scaled[0.02]}, {0, 0}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{3.8932607639322686`*^9, 3.893260849308834*^9},
- CellLabel->"Out[26]=",ExpressionUUID->"ce141cd7-e778-4081-99ac-7bc2bc4fe4ee"]
+ CellChangeTimes->{3.8932607639322686`*^9, 3.893260849308834*^9, 
+  3.8935267860419507`*^9},
+ CellLabel->"Out[26]=",ExpressionUUID->"c0f8f001-9ff7-4761-83d5-3a0f1345e3a0"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6982,7 +6985,7 @@ J8l5sBjsg26tMsSybbX0dVQxeDNv5S9aHE/PytKLkfRd5tSieWR+9RmYFqNk
 Ml/7vn0xxHieMS+6Sbfe7ZVjMUaHbryTJq5pfJY58F8xHo9U1S26TO5T65Qz
 Of6rN3nR+YVzP/+5FsNnfoProv8HIbiSMA==
        "]]},
-     Annotation[#, "Charting`Private`Tag$2667#1"]& ]}, {}},
+     Annotation[#, "Charting`Private`Tag$2658#1"]& ]}, {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{
@@ -7024,8 +7027,9 @@ Of6rN3nR+YVzP/+5FsNnfoProv8HIbiSMA==
      Scaled[0.05], 
      Scaled[0.05]}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{3.893260764339939*^9, 3.8932608493406134`*^9},
- CellLabel->"Out[27]=",ExpressionUUID->"1e49d163-4514-4002-a82b-fddcb6867527"]
+ CellChangeTimes->{3.893260764339939*^9, 3.8932608493406134`*^9, 
+  3.893526786076082*^9},
+ CellLabel->"Out[27]=",ExpressionUUID->"2663ab12-c5e2-45b5-9084-97d0c929e143"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7325,7 +7329,7 @@ lOp5T+uEsrRS2HrkLdXwNCXNmVIKv3KuxmJn8D/NkqwpBf+JJaq/uv7L/9Za
 CucOOVL7JfX2I6X3+tH7r/VSnbrLqer6aClkXtwfj/3FKbeWMF8Ky/UOVD+h
 0zfnl74NS0q01P6rqGR1ZdPtNoweekl9/j/aMUVu
        "]]},
-     Annotation[#, "Charting`Private`Tag$2723#1"]& ]}, {}},
+     Annotation[#, "Charting`Private`Tag$2714#1"]& ]}, {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{
@@ -7365,8 +7369,9 @@ CucOOVL7JfX2I6X3+tH7r/VSnbrLqer6aClkXtwfj/3FKbeWMF8Ky/UOVD+h
      Scaled[0.02], 
      Scaled[0.02]}, {0, 0}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{3.893260764714969*^9, 3.8932608493875875`*^9},
- CellLabel->"Out[28]=",ExpressionUUID->"d49a7030-f9f6-483b-8953-6d8a48383dd1"]
+ CellChangeTimes->{3.893260764714969*^9, 3.8932608493875875`*^9, 
+  3.8935267861092267`*^9},
+ CellLabel->"Out[28]=",ExpressionUUID->"6ff6f9d3-2ad9-49d4-911a-e9396d5b942d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7500,7 +7505,7 @@ Ocq+BGE7Hn5dR3rs/KmGzJMl4MuuObMkTGDo46VJ5qkSjL54Pz9D+lFPsV6L
 awlKHz5QfUS6yaDeq9e9BBo+JnM1pGvvdRWMnimB7Y/Ju8WkyxXfP5n1KMHQ
 08sZqaSLWYs/lzxLEOU3fyWY9P8A2A9r2Q==
        "]]},
-     Annotation[#, "Charting`Private`Tag$2779#1"]& ]}, {}},
+     Annotation[#, "Charting`Private`Tag$2770#1"]& ]}, {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{
@@ -7542,8 +7547,9 @@ awlKHz5QfUS6yaDeq9e9BBo+JnM1pGvvdRWMnimB7Y/Ju8WkyxXfP5n1KMHQ
      Scaled[0.05], 
      Scaled[0.05]}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{3.893260765584637*^9, 3.8932608494314175`*^9},
- CellLabel->"Out[29]=",ExpressionUUID->"17a56c6f-b46c-4ca1-90d7-17434d88abb3"]
+ CellChangeTimes->{3.893260765584637*^9, 3.8932608494314175`*^9, 
+  3.8935267861403*^9},
+ CellLabel->"Out[29]=",ExpressionUUID->"44ad0f0c-fc4b-496b-b3bb-875608fab6ea"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7899,7 +7905,7 @@ JubZfzrxYZbFkF7IlYR53NO2MdW6GCAPn4D58w+f6ULbYpB2vhuHubO3QLXN
 oRgm/CeiMDerN7j3ORVDQjdPJOYnz97ljDkXg8tfo/Dd+i8+0T3nWgxuf+ND
 MReQ11d33Ioh5c2bYMz/A6rjOBQ=
        "]]},
-     Annotation[#, "Charting`Private`Tag$2835#1"]& ]}, {}},
+     Annotation[#, "Charting`Private`Tag$2826#1"]& ]}, {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{
@@ -7939,8 +7945,9 @@ MReQ11d33Ioh5c2bYMz/A6rjOBQ=
      Scaled[0.02], 
      Scaled[0.02]}, {0, 0}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{3.8932607659300203`*^9, 3.893260849482066*^9},
- CellLabel->"Out[30]=",ExpressionUUID->"41cd759b-48a5-4759-9bc6-b1f18abd0848"]
+ CellChangeTimes->{3.8932607659300203`*^9, 3.893260849482066*^9, 
+  3.8935267861730347`*^9},
+ CellLabel->"Out[30]=",ExpressionUUID->"db5b8fe5-b4d4-49e1-99bd-9548daeb2e0a"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -8276,7 +8283,7 @@ Ir/vG2MFcPTZma/H8w41QpK9AjL68yywt9gWzhbtqADb5tcnsR8zHbUQkq0A
 /gfNp7GDan89SNOqgHMtptbYSpaU3ewnKmA0mWKzHq9/x5OjbSugX/y/M9gl
 ZX9+r7lXwJCa/1ns/wFJYCio
        "]]},
-     Annotation[#, "Charting`Private`Tag$2891#1"]& ]}, {}},
+     Annotation[#, "Charting`Private`Tag$2882#1"]& ]}, {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{
@@ -8316,8 +8323,9 @@ ZX9+r7lXwJCa/1ns/wFJYCio
      Scaled[0.02], 
      Scaled[0.02]}, {0, 0}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{3.8932607662764263`*^9, 3.8932608495132837`*^9},
- CellLabel->"Out[31]=",ExpressionUUID->"ac598fd1-9b43-4d66-8654-41fef31a4d6b"]
+ CellChangeTimes->{3.8932607662764263`*^9, 3.8932608495132837`*^9, 
+  3.893526786206094*^9},
+ CellLabel->"Out[31]=",ExpressionUUID->"205c82bd-466a-404a-ab75-f440870628b3"]
 }, Open  ]],
 
 Cell["\<\
@@ -8581,7 +8589,7 @@ Cell[BoxData[
    3.8932600214434233`*^9}, {3.893260161633381*^9, 3.8932601876728897`*^9}, {
    3.8932609624721675`*^9, 3.893261196581235*^9}, {3.893261235797924*^9, 
    3.8932612557025137`*^9}},
- CellLabel->"In[47]:=",ExpressionUUID->"526f1283-fd78-42b3-b111-c4e659768237"],
+ CellLabel->"In[32]:=",ExpressionUUID->"526f1283-fd78-42b3-b111-c4e659768237"],
 
 Cell[BoxData[
  GraphicsBox[{{{{}, {}, 
@@ -8776,7 +8784,7 @@ z8GUbgl4Gi5vVQZVc9oydHPLrbw2PlUGrTUnN9O98NeUQr5QBqdA804M9uvP
 xFkaoQy2+G7JoPvxULF+t2sZDO9hvUR3U9uzG5OeZdD596gZ3cUlq783fMqg
 v+CeHN3/A9pqgdc=
         "]]},
-      Annotation[#, "Charting`Private`Tag$7235#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$2986#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[1, 0, 0], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -9075,7 +9083,7 @@ FEzY/MFSuAR7KcSapP9bz+ZNJ8wEZUvh5dKdf/uRP5zPbKFUCp5W188QDq78
 +SRVvRT8uUxNCSuaU/awG5QCf0ab3r/9lVwZ1rMohd/0gVr/5vNHPzHKphQq
 OHYhwi3dhZpNTqWQpPVahXBh8a/ldfdSuBXnqkj4f4DQ1oA=
         "]]},
-      Annotation[#, "Charting`Private`Tag$7289#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$3040#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[0, 0.5, 0], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -9335,7 +9343,7 @@ onjPUpbzoM5R9V88XXocbDkhkw9nOp/LYiu/WvQVdMuHW0p/TmEn8bSliJbk
 g0+a9L/4nLFKfyY1nw8eETuVsVvoNQ14xB+Az39v/vl+3u/lDYcHYMed9s//
 A7O5pC8=
         "]]},
-      Annotation[#, "Charting`Private`Tag$7343#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$3094#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[1, 0.5, 0], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -9511,7 +9519,7 @@ JtiiAHIcZ5o9safcrOofWRZA/53ywC2PzPjM5VkVAFwuVd3y2/e5Cq12BWD/
 XO29B3aT8guXgRsFMDo882jLNa960ydu4ffZ98pkyyXC37uojnict/XYlnMJ
 66ubzgXAs7r53R37f03V8Xo=
         "]]},
-      Annotation[#, "Charting`Private`Tag$7397#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$3148#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[0.5, 0, 0.5], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -9640,7 +9648,7 @@ Bnx9W9UmG0vlKKO8pEU3z/WaH8lGvp4vSjPryP3472BsmGM2nhanydeTHrl6
 Gy0bpMvvki6vbkkfupiN/j5FNbdJ56l/fDnjlo3iDR9brpHOYs///ueejUNx
 heMXSP8PDB7Ihg==
         "]]},
-      Annotation[#, "Charting`Private`Tag$7451#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$3202#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {GrayLevel[0], Thickness[0.005], Opacity[1.], LineBox[CompressedData["
 1:eJwd2Hc8VW8YAHC07YjMjJBC2SPjPCQzI7M0laIkRCWUPSJc+5r3urYkFVLZ
@@ -9924,7 +9932,7 @@ BATNRjSxv7nn3lWfKIGeU490sPN5zESr/pbAwvwNvZX135+J2MZVCuq31xDY
 3McoE1TxUvhZqLDSD3SstXQU2VkKfGKr9mCrO9HkuGxKwSLn3V7swuL5uWXv
 UiBtzTPF/h9spYOw
         "]]},
-      Annotation[#, "Charting`Private`Tag$7505#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$3256#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[0, 1, 1], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -10240,7 +10248,7 @@ r45kDprHaGX/v89Fq29j5HJg85fgWdwS2uknGFRz4MxM51HcvNDtJaSZA6Et
 tFy4mQXXR5R1ciDs03V23PN/b0T4G+bAw9QFetwjX9y/ZZrkgC6jyh7cbe8y
 LpEtciC1v2wX7lfVPc+nrHPAay//Nl5vMrI21rbtc0C0NnUT938M2N8x
         "]]},
-      Annotation[#, "Charting`Private`Tag$7559#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$3310#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[1, 0, 1], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -10552,7 +10560,7 @@ TtWeY+UQLZB7C/urU+59pdlyOCxjf/dfP3Jw0dFjuRxGvg3ex87nOrK15k85
 XDYUr8P2n8jro2ysgFPcxx7+i9/DpXBJjgpwjzZuxOY8VzBbKIKuK1KbsJ8z
 HbUQ3lsB+cGsrdhKlsW7OYwrwOd4zzPskrKfK+tuFWA63NOJ/T+g34Pn
         "]]},
-      Annotation[#, "Charting`Private`Tag$7613#1"]& ]}, {}}},
+      Annotation[#, "Charting`Private`Tag$3364#1"]& ]}, {}}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->False,
   AxesLabel->{None, None},
@@ -10593,8 +10601,8 @@ HbUQ3lsB+cGsrdhKlsW7OYwrwOd4zzPskrKfK+tuFWA63NOJ/T+g34Pn
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{
   3.893260767627167*^9, 3.893260849749345*^9, {3.8932611674464407`*^9, 
-   3.8932611889539795`*^9}, 3.893261256569968*^9},
- CellLabel->"Out[48]=",ExpressionUUID->"2bc151a5-4b3e-469d-a836-e4d7d56c9a02"]
+   3.8932611889539795`*^9}, 3.893261256569968*^9, 3.893526786317341*^9},
+ CellLabel->"Out[33]=",ExpressionUUID->"939fb840-a595-41bc-8d49-b6410bf899a2"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -10607,7 +10615,7 @@ Cell[BoxData[
     "1.5"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.893261201341608*^9, 3.8932612245479116`*^9}, {
   3.8932612595387135`*^9, 3.893261263522751*^9}},
- CellLabel->"In[50]:=",ExpressionUUID->"44c33074-73a1-47a9-8030-bed54797c3d7"],
+ CellLabel->"In[34]:=",ExpressionUUID->"44c33074-73a1-47a9-8030-bed54797c3d7"],
 
 Cell[BoxData[
  GraphicsBox[{{{{}, {}, 
@@ -10667,7 +10675,7 @@ fPrd6/HNk1w0ezXypWvV/WPMiTwvLs75bH2mZk/As9e5pryzXGwvHB9/t+om
 i1q/N+e5mCdarKfjQEBVfVfG8G9cnNjRejRp1fc1RtpnLnLRr9XBeWzVuflL
 C//6clHy7yM70JGA/wDj/lcv
         "]]},
-      Annotation[#, "Charting`Private`Tag$8203#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$3467#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[1, 0, 0], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -10794,7 +10802,7 @@ P25RCGmKdssPsWfWDR6E2RTCvrB02hzsEW/7ugTbQjDcTmHMwu4f95/Mty8E
 NxNJ9gzst515mk1OhRB/Ml8oBbtBu9azywV/n9cJB5Owq1+0Z1DdCqHt5F+V
 BOwS6e/vSfdCqOka1IvDzitYWdrwKASlfdJnYrD/B72MOqA=
         "]]},
-      Annotation[#, "Charting`Private`Tag$8257#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$3528#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[0, 0.5, 0], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -11006,7 +11014,7 @@ GxeDpUxlFD/2opN5U5JpMZjfoX7Hiz3z2f1LgXkxVF2zEeTE7hnNVyRYF8Pv
 MbU5WuwW5UaHsfvFoB7QdpkSu/710NOFB8XwTEQi798lnJ8in/qItsXQvJ5H
 /xM7v/DXzz37YpBoo/YmYv8PI3Tpdw==
         "]]},
-      Annotation[#, "Charting`Private`Tag$8311#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$3582#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[1, 0.5, 0], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -11100,7 +11108,7 @@ w/5O1dfO4vV2S7092H1fQsZynVgQRnSbyWK/bL9j0uDGgkLG1dut5mxUa/rY
 r+MfFjzfUTZciF3+5M3tIU8W3Pvy04CJfU/zczPHmwX+HVb5Z7Hv5M1OL/qy
 YKtSqbIR9v8iHiD2
         "]]},
-      Annotation[#, "Charting`Private`Tag$8365#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$3636#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[0.5, 0, 0.5], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -11190,7 +11198,7 @@ yKUYWK+fywR1q0wFwSMMDO1tULiUxgSllqcWG44xkO3z7uNid5mwCVvpShYM
 gYH9L2atB64wobz6bdqgKwNf/X0t53+ZCfmq35qn3RnIc+BHhsAlJmRlL/5a
 8WSghOFsX1Y0E/4HLEmwtw==
         "]]},
-      Annotation[#, "Charting`Private`Tag$8419#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$3690#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {GrayLevel[0], Thickness[0.005], Opacity[1.], LineBox[CompressedData["
 1:eJwV0mk0lQsXB3CkQhGliJREigwhc/YmyVASV4OoUOF2EULRQOZ5luHQ4XAO
@@ -11275,7 +11283,7 @@ F3qRgW/W/hLIIz3m6VibYs/AVbuPOrmk+z7dnMhzZGB0i+KfVNLNXbQjr50Y
 GJfb/ZZC+qVR9fX3Lgzk/qa2kkG6sqY9a/QaAxskp5XTSRcr//v2iysDm8V+
 X3lAmpb/c3HVnYFbmY6UFNL/AyfyNrw=
         "]]},
-      Annotation[#, "Charting`Private`Tag$8473#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$3744#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[0, 1, 1], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -11392,7 +11400,7 @@ sjagZ10MV0f2rL76tx9/jZJjHYohYuR37hvs8QsujWlO2Dtp4t5iDxAhM/dd
 ioE/19K/FftdD1mzmVQMCby/1NqwX5x66v/RsxhsubX427FrG7rujp0vhtm7
 E0wd2GWSE+2LPsXwTvgr9Z/Jheu/tvyKIViHr/c99v8B+Fdozw==
         "]]},
-      Annotation[#, "Charting`Private`Tag$8527#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$3798#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[1, 0, 1], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -11531,7 +11539,7 @@ ep2sb1EBpdaNuuHY3/4aJEbaVADzScfKQOzP3nbP0q9UQHdhqm4ANvlLwNdS
 uwqglYiduY7dNVCi1e5YAXWq/ZJe2C90mz0HnSqAb2tvrzt2Q0tf/qRLBfS6
 yPm4YlfLT79dcauAN3u3CThjl5RtrG15VMDmo+wOR+z/Ac4dE1c=
         "]]},
-      Annotation[#, "Charting`Private`Tag$8581#1"]& ]}, {}}},
+      Annotation[#, "Charting`Private`Tag$3852#1"]& ]}, {}}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->False,
   AxesLabel->{None, None},
@@ -11571,8 +11579,9 @@ yPm4YlfLT79dcauAN3u3CThjl5RtrG15VMDmo+wOR+z/Ac4dE1c=
      Scaled[0.02]}, {0, 0}},
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{
-  3.893261226079455*^9, {3.893261260856496*^9, 3.8932612639156265`*^9}},
- CellLabel->"Out[50]=",ExpressionUUID->"99b39e49-9bc7-4a24-b9bd-219b37eb5ea3"]
+  3.893261226079455*^9, {3.893261260856496*^9, 3.8932612639156265`*^9}, 
+   3.8935267864876966`*^9},
+ CellLabel->"Out[34]=",ExpressionUUID->"d70e27a0-495c-48e1-8799-9e10a4686b29"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -11584,7 +11593,7 @@ Cell[BoxData[
    "1", ",", "3", ",", "40", ",", "6.666", ",", "3000", ",", "0.005", ",", 
     "1.2"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.8932612773529944`*^9, 3.893261305854677*^9}},
- CellLabel->"In[52]:=",ExpressionUUID->"bbf9ac0d-db51-4739-9838-152455d7d866"],
+ CellLabel->"In[35]:=",ExpressionUUID->"bbf9ac0d-db51-4739-9838-152455d7d866"],
 
 Cell[BoxData[
  GraphicsBox[{{{{}, {}, 
@@ -11695,7 +11704,7 @@ q6tIazfcoazeK0S7G7Iz80hvwKY4bYoQibAe1yFggYzWTKe9mxAvmskZPSQ9
 Ol8hWqts/yZGutrmbkjrMbKeWfHeb2YsqLj/8vJ7fyEuY3n1tZG+rvOxfixQ
 iKm/LEYfks4vnJ3+EyxEqS+5i4Wk/wdTgqgK
         "]]},
-      Annotation[#, "Charting`Private`Tag$9172#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$3955#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[1, 0, 0], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -11805,7 +11814,7 @@ pI09GuDScN2JCoa2dzLp/jRB/nnHhQoWb6396H797rZuiwcVBsv/idLdZPDY
 r+c0Fb6tL60Cdm19562RM1QQfL+pl+4yxbE2mg8VXuzcW0737aKVpX++VJDq
 9Emg+39+D2kY
         "]]},
-      Annotation[#, "Charting`Private`Tag$9226#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$4009#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[0, 0.5, 0], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -11930,7 +11939,7 @@ rrEuddG9XXy5X98yF2YEtfSeYk/9M4yLssuFUXelw0XYoz5OtQkOucA0m3qe
 7v5x8kSWUy6EfvuWQfeHzsdada65cMx+I1cx9mudGq9PF3LBgWv4JN2VL9of
 jVzMhayo5Kt0F8p8b55xz4W5ZtlXdD/O/rO07pkLaCFvke7/AcVwf9g=
         "]]},
-      Annotation[#, "Charting`Private`Tag$9280#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$4063#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[1, 0.5, 0], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -12024,7 +12033,7 @@ MGzmoKGNTfwyTUtwpoHm5evi1tgfg9waM11oQJxlzbXHHp0Jn73jRoN8vSX2
 E9idr4t0W8k08OmUnnPHbtZ7QnnjTQNZhVgbb+zHDb23PvjSwPa9daM/dpns
 p65FfxocOVAkFIRdVPxj7U8gDbitqRdCsf8PDZhunQ==
         "]]},
-      Annotation[#, "Charting`Private`Tag$9334#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$4117#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[0.5, 0, 0.5], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -12196,7 +12205,7 @@ FphiCU+vGEUHncuDljCOFWvs4esXahPP50GGj1g34Z4xzwnahTx4KadSSrip
 jarf4JgHV587Xyb84lC1a/vlPBBrSDxAuKLmQ+bQ1Tzwzq2XIFyo/O3dnFMe
 SLgv/jmDTc35/WvNJQ8y9yh1Ef4fMsX6aQ==
         "]]},
-      Annotation[#, "Charting`Private`Tag$9388#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$4171#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {GrayLevel[0], Thickness[0.005], Opacity[1.], LineBox[CompressedData["
 1:eJwVz3k41IkfB3C2jWjE+hkkSnIkkUomFZ8PEip3jjZFaIbKMR0SSrE5EpZc
@@ -12244,7 +12253,7 @@ KPL6Y2Kaco8wbPi+LxfVc9b5fqP86m2xZSuLi24edtYiys0H6kLeBXCRl2VQ
 853ys/rOvE9nuHgjPVNrmfIjw8HXk4Fc3LQ1Nk38OwnFJQtzy8Fc9Nm3tLiC
 8r/Ju98y
         "]]},
-      Annotation[#, "Charting`Private`Tag$9442#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$4225#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[0, 1, 1], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -12319,7 +12328,7 @@ Tsa2atqDfxzio/14mNRkrP6INnWQXZnkz8OilAalh7Q7Px39cpPNwxMfxWQe
 0H7ddMOyJoiH3SzmRBntapsHIe/38LChjzNUSrvs0dsMwT4eah/Q6S+hfUe/
 r27kAA+XpEd9LKZ9I+/XzxkOD7vmhrfxaf8P1Y4WTg==
         "]]},
-      Annotation[#, "Charting`Private`Tag$9496#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$4279#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[1, 0, 1], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -12393,7 +12402,7 @@ NqTObUgKwu4fDf9+k8EGdvDJTH/stq6S/a0+bJgVTrzPxH5s2hDcfYwND2TQ
 UwZ27aOO68PH2TCa1/SGjn1H/ctLMoANb+J5xlyxS0oX5peD2NDyj9AfZ+z/
 A/kDFVs=
         "]]},
-      Annotation[#, "Charting`Private`Tag$9550#1"]& ]}, {}}},
+      Annotation[#, "Charting`Private`Tag$4333#1"]& ]}, {}}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->False,
   AxesLabel->{None, None},
@@ -12432,8 +12441,9 @@ A/kDFVs=
      Scaled[0.02], 
      Scaled[0.02]}, {0, 0}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{{3.8932612985147758`*^9, 3.8932613064840345`*^9}},
- CellLabel->"Out[52]=",ExpressionUUID->"aeabf2f7-9f2e-47d7-80fa-324eb065495f"]
+ CellChangeTimes->{{3.8932612985147758`*^9, 3.8932613064840345`*^9}, 
+   3.8935267866151505`*^9},
+ CellLabel->"Out[35]=",ExpressionUUID->"43d9e4b9-6b3f-4289-a224-e7f347d84090"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -12445,7 +12455,7 @@ Cell[BoxData[
    "1", ",", "2", ",", "40", ",", "6.666", ",", "3000", ",", "0.005", ",", 
     "1.2"}], "]"}]}]], "Input",
  CellChangeTimes->{{3.893261321774768*^9, 3.893261344003582*^9}},
- CellLabel->"In[53]:=",ExpressionUUID->"865782f6-f325-4d0e-96ee-5201aa29a73b"],
+ CellLabel->"In[36]:=",ExpressionUUID->"865782f6-f325-4d0e-96ee-5201aa29a73b"],
 
 Cell[BoxData[
  GraphicsBox[{{{{}, {}, 
@@ -12579,7 +12589,7 @@ puh2uXj8gcSSNMvPX+VoNTqy5v9oP5VEIECdbpVLz7VcpDfFKp5hueLJy4zR
 G7k43jBSsYHlAvmP7d+dcln/EymXZ14EyGEs/V69lYtms0dtSCz/D5/658U=
 
         "]]},
-      Annotation[#, "Charting`Private`Tag$9657#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$4438#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[1, 0, 0], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -12694,7 +12704,7 @@ cVsKiD82tWN4bt00LcmJAtX63vkm2KNBbvWZLvh5GVIgw98nSdP33CgQ+6xA
 n+F3X+7qtxApsCmVMGWM3Wj4IqDzHAUsaxprGX5e9/nOsDcF2kxsUhkuUxn7
 QPelwOphdmeG7xavrW74U8DLv1uV4f8BTzXaxw==
         "]]},
-      Annotation[#, "Charting`Private`Tag$9711#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$4492#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[0, 0.5, 0], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -12827,7 +12837,7 @@ jPPH50yaBydCpx46kSGMOX+Y5tZPD3QpbmToC37pkIfdoP/Kt/sSGZjub3tI
 88vaD/e+eZDBb0zmJ81P5X60U73IsGApI5GP/aBwbWXThwye7AzuNP8f+lYB
 tA==
         "]]},
-      Annotation[#, "Charting`Private`Tag$9765#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$4546#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[1, 0.5, 0], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -12900,7 +12910,7 @@ y0HnJRU7DuhsGbUcxxbfMd93wIkDTvqmr+aw+T8sU6I9sNdp8GhzFBoO9anL
 larSFbGra58VDJ3kQNaH9ioV7DLNkfaJUxwIqp3u1sS+xV6YWwriQKvzzmkd
 7P8B5b8zag==
         "]]},
-      Annotation[#, "Charting`Private`Tag$9819#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$4600#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[0.5, 0, 0.5], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -13074,7 +13084,7 @@ ZhNa6FQ3TIfy3ecCSE/+0wr2vpoOm3PZq+2xB++ZlkVeT4fljrRg0p0jTmMp
 punQL6hiTPrdF5pyjUU6EBezFsj37wqVEptmq3SI1bCrI11Y2pQ4cCsdsh+p
 RpDOEv3xfuZOOkytHDIhTUtdnF+xTofrzbtESf8PqC14Cw==
         "]]},
-      Annotation[#, "Charting`Private`Tag$9873#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$4654#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {GrayLevel[0], Thickness[0.005], Opacity[1.], LineBox[CompressedData["
 1:eJwVz3k4lAsbBnBOi2yhZCkJWSqUrEX1PCmisodWqhFSjImko4SQrEkJZWks
@@ -13127,7 +13137,7 @@ EzLhezaSVsOWMG0nBv41/EB/M2npDfwua1cG6rsWLzAhPfrbJinanYHSBswb
 /+NpBjoSrC/2pCtetGb2nWFg7wr1EifShXoD7yZ8GXjRvCTShXRuvmB6nspA
 Tmi06yHS/wPycFfm
         "]]},
-      Annotation[#, "Charting`Private`Tag$9927#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$4708#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[0, 1, 1], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -13194,7 +13204,7 @@ a5Wc4MHAgi+vfy7kmR3qXZfiyUAl5pv6BTx3D0YP3/Zm4OKeKwkCPLe8K9jx
 lMbr8zeX5eO50fxRyPtDDGSPGnDn+Xn/UNt+i3WYgRoCQ2V/eb6nxXk9dYSB
 Lwz3HvvDc0Hh7PS/YAaaKYVa/Ob5f2sTYLg=
         "]]},
-      Annotation[#, "Charting`Private`Tag$9981#1"]& ]}, {}}, {{{}, {}, 
+      Annotation[#, "Charting`Private`Tag$4762#1"]& ]}, {}}, {{{}, {}, 
      TagBox[
       {RGBColor[1, 0, 1], Thickness[0.005], Opacity[1.], 
        LineBox[CompressedData["
@@ -13274,7 +13284,7 @@ ySsWW92hRH6dJR08v4pMemArvWq0lbSmw5WlLe5u2DLQdVrJlg7CFL0hJ2zh
 h2vLOfw62M97Sg06yXR4VjihQMJ+aNwc8i6ADjtCFVr3Yd9r7b72OYgOE/lx
 Vnuxb6tOvuRQ6aAzODmthF1avrjwN5gObjOuCYrY/wNvk7t0
         "]]},
-      Annotation[#, "Charting`Private`Tag$10035#1"]& ]}, {}}},
+      Annotation[#, "Charting`Private`Tag$4816#1"]& ]}, {}}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->False,
   AxesLabel->{None, None},
@@ -13313,8 +13323,8 @@ Vnuxb6tOvuRQ6aAzODmthF1avrjwN5gObjOuCYrY/wNvk7t0
      Scaled[0.02], 
      Scaled[0.02]}, {0, 0}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{3.8932613457806273`*^9},
- CellLabel->"Out[53]=",ExpressionUUID->"761d202e-3b13-4a24-9d6c-a9b3d9874b7c"]
+ CellChangeTimes->{3.8932613457806273`*^9, 3.893526786787671*^9},
+ CellLabel->"Out[36]=",ExpressionUUID->"7c94235a-b299-4a41-b30f-83bc5d388d8b"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -13338,7 +13348,7 @@ Cell[BoxData[
    3.8932616736133204`*^9}, {3.8932617367113495`*^9, 
    3.8932618039578123`*^9}, {3.89326183732298*^9, 3.8932618718658895`*^9}, {
    3.893262203828248*^9, 3.8932622174125624`*^9}, 3.8932622786875167`*^9},
- CellLabel->"In[83]:=",ExpressionUUID->"ece7604d-0fc6-44ca-870e-6a15839a2ead"],
+ CellLabel->"In[37]:=",ExpressionUUID->"ece7604d-0fc6-44ca-870e-6a15839a2ead"],
 
 Cell[BoxData[
  GraphicsBox[{{}, {{InsetBox[
@@ -13399,7 +13409,7 @@ fPrd6/HNk1w0ezXypWvV/WPMiTwvLs75bH2mZk/As9e5pryzXGwvHB9/t+om
 i1q/N+e5mCdarKfjQEBVfVfG8G9cnNjRejRp1fc1RtpnLnLRr9XBeWzVuflL
 C//6clHy7yM70JGA/wDj/lcv
              "]]},
-           Annotation[#, "Charting`Private`Tag$8203#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$3467#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[1, 0, 0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -13526,7 +13536,7 @@ P25RCGmKdssPsWfWDR6E2RTCvrB02hzsEW/7ugTbQjDcTmHMwu4f95/Mty8E
 NxNJ9gzst515mk1OhRB/Ml8oBbtBu9azywV/n9cJB5Owq1+0Z1DdCqHt5F+V
 BOwS6e/vSfdCqOka1IvDzitYWdrwKASlfdJnYrD/B72MOqA=
              "]]},
-           Annotation[#, "Charting`Private`Tag$8257#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$3528#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[0, 0.5, 0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -13738,7 +13748,7 @@ GxeDpUxlFD/2opN5U5JpMZjfoX7Hiz3z2f1LgXkxVF2zEeTE7hnNVyRYF8Pv
 MbU5WuwW5UaHsfvFoB7QdpkSu/710NOFB8XwTEQi798lnJ8in/qItsXQvJ5H
 /xM7v/DXzz37YpBoo/YmYv8PI3Tpdw==
              "]]},
-           Annotation[#, "Charting`Private`Tag$8311#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$3582#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[1, 0.5, 0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -13832,7 +13842,7 @@ w/5O1dfO4vV2S7092H1fQsZynVgQRnSbyWK/bL9j0uDGgkLG1dut5mxUa/rY
 r+MfFjzfUTZciF3+5M3tIU8W3Pvy04CJfU/zczPHmwX+HVb5Z7Hv5M1OL/qy
 YKtSqbIR9v8iHiD2
              "]]},
-           Annotation[#, "Charting`Private`Tag$8365#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$3636#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[0.5, 0, 0.5], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -13922,7 +13932,7 @@ yKUYWK+fywR1q0wFwSMMDO1tULiUxgSllqcWG44xkO3z7uNid5mwCVvpShYM
 gYH9L2atB64wobz6bdqgKwNf/X0t53+ZCfmq35qn3RnIc+BHhsAlJmRlL/5a
 8WSghOFsX1Y0E/4HLEmwtw==
              "]]},
-           Annotation[#, "Charting`Private`Tag$8419#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$3690#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {GrayLevel[0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -14008,7 +14018,7 @@ F3qRgW/W/hLIIz3m6VibYs/AVbuPOrmk+z7dnMhzZGB0i+KfVNLNXbQjr50Y
 GJfb/ZZC+qVR9fX3Lgzk/qa2kkG6sqY9a/QaAxskp5XTSRcr//v2iysDm8V+
 X3lAmpb/c3HVnYFbmY6UFNL/AyfyNrw=
              "]]},
-           Annotation[#, "Charting`Private`Tag$8473#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$3744#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[0, 1, 1], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -14125,7 +14135,7 @@ sjagZ10MV0f2rL76tx9/jZJjHYohYuR37hvs8QsujWlO2Dtp4t5iDxAhM/dd
 ioE/19K/FftdD1mzmVQMCby/1NqwX5x66v/RsxhsubX427FrG7rujp0vhtm7
 E0wd2GWSE+2LPsXwTvgr9Z/Jheu/tvyKIViHr/c99v8B+Fdozw==
              "]]},
-           Annotation[#, "Charting`Private`Tag$8527#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$3798#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[1, 0, 1], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -14264,7 +14274,7 @@ ep2sb1EBpdaNuuHY3/4aJEbaVADzScfKQOzP3nbP0q9UQHdhqm4ANvlLwNdS
 uwqglYiduY7dNVCi1e5YAXWq/ZJe2C90mz0HnSqAb2tvrzt2Q0tf/qRLBfS6
 yPm4YlfLT79dcauAN3u3CThjl5RtrG15VMDmo+wOR+z/Ac4dE1c=
              "]]},
-           Annotation[#, "Charting`Private`Tag$8581#1"]& ]}, {}}},
+           Annotation[#, "Charting`Private`Tag$3852#1"]& ]}, {}}},
        AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
        Axes->False,
        AxesLabel->{None, None},
@@ -14437,7 +14447,7 @@ puh2uXj8gcSSNMvPX+VoNTqy5v9oP5VEIECdbpVLz7VcpDfFKp5hueLJy4zR
 G7k43jBSsYHlAvmP7d+dcln/EymXZ14EyGEs/V69lYtms0dtSCz/D5/658U=
 
              "]]},
-           Annotation[#, "Charting`Private`Tag$9657#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$4438#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[1, 0, 0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -14552,7 +14562,7 @@ cVsKiD82tWN4bt00LcmJAtX63vkm2KNBbvWZLvh5GVIgw98nSdP33CgQ+6xA
 n+F3X+7qtxApsCmVMGWM3Wj4IqDzHAUsaxprGX5e9/nOsDcF2kxsUhkuUxn7
 QPelwOphdmeG7xavrW74U8DLv1uV4f8BTzXaxw==
              "]]},
-           Annotation[#, "Charting`Private`Tag$9711#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$4492#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[0, 0.5, 0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -14685,7 +14695,7 @@ jPPH50yaBydCpx46kSGMOX+Y5tZPD3QpbmToC37pkIfdoP/Kt/sSGZjub3tI
 88vaD/e+eZDBb0zmJ81P5X60U73IsGApI5GP/aBwbWXThwye7AzuNP8f+lYB
 tA==
              "]]},
-           Annotation[#, "Charting`Private`Tag$9765#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$4546#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[1, 0.5, 0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -14758,7 +14768,7 @@ y0HnJRU7DuhsGbUcxxbfMd93wIkDTvqmr+aw+T8sU6I9sNdp8GhzFBoO9anL
 larSFbGra58VDJ3kQNaH9ioV7DLNkfaJUxwIqp3u1sS+xV6YWwriQKvzzmkd
 7P8B5b8zag==
              "]]},
-           Annotation[#, "Charting`Private`Tag$9819#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$4600#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[0.5, 0, 0.5], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -14932,7 +14942,7 @@ ZhNa6FQ3TIfy3ecCSE/+0wr2vpoOm3PZq+2xB++ZlkVeT4fljrRg0p0jTmMp
 punQL6hiTPrdF5pyjUU6EBezFsj37wqVEptmq3SI1bCrI11Y2pQ4cCsdsh+p
 RpDOEv3xfuZOOkytHDIhTUtdnF+xTofrzbtESf8PqC14Cw==
              "]]},
-           Annotation[#, "Charting`Private`Tag$9873#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$4654#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {GrayLevel[0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -14986,7 +14996,7 @@ EzLhezaSVsOWMG0nBv41/EB/M2npDfwua1cG6rsWLzAhPfrbJinanYHSBswb
 /+NpBjoSrC/2pCtetGb2nWFg7wr1EifShXoD7yZ8GXjRvCTShXRuvmB6nspA
 Tmi06yHS/wPycFfm
              "]]},
-           Annotation[#, "Charting`Private`Tag$9927#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$4708#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[0, 1, 1], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -15053,7 +15063,7 @@ a5Wc4MHAgi+vfy7kmR3qXZfiyUAl5pv6BTx3D0YP3/Zm4OKeKwkCPLe8K9jx
 lMbr8zeX5eO50fxRyPtDDGSPGnDn+Xn/UNt+i3WYgRoCQ2V/eb6nxXk9dYSB
 Lwz3HvvDc0Hh7PS/YAaaKYVa/Ob5f2sTYLg=
              "]]},
-           Annotation[#, "Charting`Private`Tag$9981#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$4762#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[1, 0, 1], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -15133,7 +15143,7 @@ ySsWW92hRH6dJR08v4pMemArvWq0lbSmw5WlLe5u2DLQdVrJlg7CFL0hJ2zh
 h2vLOfw62M97Sg06yXR4VjihQMJ+aNwc8i6ADjtCFVr3Yd9r7b72OYgOE/lx
 Vnuxb6tOvuRQ6aAzODmthF1avrjwN5gObjOuCYrY/wNvk7t0
              "]]},
-           Annotation[#, "Charting`Private`Tag$10035#1"]& ]}, {}}},
+           Annotation[#, "Charting`Private`Tag$4816#1"]& ]}, {}}},
        AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
        Axes->False,
        AxesLabel->{None, None},
@@ -15367,7 +15377,7 @@ z8GUbgl4Gi5vVQZVc9oydHPLrbw2PlUGrTUnN9O98NeUQr5QBqdA804M9uvP
 xFkaoQy2+G7JoPvxULF+t2sZDO9hvUR3U9uzG5OeZdD596gZ3cUlq783fMqg
 v+CeHN3/A9pqgdc=
              "]]},
-           Annotation[#, "Charting`Private`Tag$7235#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$2986#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[1, 0, 0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -15666,7 +15676,7 @@ FEzY/MFSuAR7KcSapP9bz+ZNJ8wEZUvh5dKdf/uRP5zPbKFUCp5W188QDq78
 +SRVvRT8uUxNCSuaU/awG5QCf0ab3r/9lVwZ1rMohd/0gVr/5vNHPzHKphQq
 OHYhwi3dhZpNTqWQpPVahXBh8a/ldfdSuBXnqkj4f4DQ1oA=
              "]]},
-           Annotation[#, "Charting`Private`Tag$7289#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$3040#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[0, 0.5, 0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -15926,7 +15936,7 @@ onjPUpbzoM5R9V88XXocbDkhkw9nOp/LYiu/WvQVdMuHW0p/TmEn8bSliJbk
 g0+a9L/4nLFKfyY1nw8eETuVsVvoNQ14xB+Az39v/vl+3u/lDYcHYMed9s//
 A7O5pC8=
              "]]},
-           Annotation[#, "Charting`Private`Tag$7343#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$3094#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[1, 0.5, 0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -16102,7 +16112,7 @@ JtiiAHIcZ5o9safcrOofWRZA/53ywC2PzPjM5VkVAFwuVd3y2/e5Cq12BWD/
 XO29B3aT8guXgRsFMDo882jLNa960ydu4ffZ98pkyyXC37uojnict/XYlnMJ
 66ubzgXAs7r53R37f03V8Xo=
              "]]},
-           Annotation[#, "Charting`Private`Tag$7397#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$3148#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[0.5, 0, 0.5], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -16231,7 +16241,7 @@ Bnx9W9UmG0vlKKO8pEU3z/WaH8lGvp4vSjPryP3472BsmGM2nhanydeTHrl6
 Gy0bpMvvki6vbkkfupiN/j5FNbdJ56l/fDnjlo3iDR9brpHOYs///ueejUNx
 heMXSP8PDB7Ihg==
              "]]},
-           Annotation[#, "Charting`Private`Tag$7451#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$3202#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {GrayLevel[0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -16516,7 +16526,7 @@ BATNRjSxv7nn3lWfKIGeU490sPN5zESr/pbAwvwNvZX135+J2MZVCuq31xDY
 3McoE1TxUvhZqLDSD3SstXQU2VkKfGKr9mCrO9HkuGxKwSLn3V7swuL5uWXv
 UiBtzTPF/h9spYOw
              "]]},
-           Annotation[#, "Charting`Private`Tag$7505#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$3256#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[0, 1, 1], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -16832,7 +16842,7 @@ r45kDprHaGX/v89Fq29j5HJg85fgWdwS2uknGFRz4MxM51HcvNDtJaSZA6Et
 tFy4mQXXR5R1ciDs03V23PN/b0T4G+bAw9QFetwjX9y/ZZrkgC6jyh7cbe8y
 LpEtciC1v2wX7lfVPc+nrHPAay//Nl5vMrI21rbtc0C0NnUT938M2N8x
              "]]},
-           Annotation[#, "Charting`Private`Tag$7559#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$3310#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[1, 0, 1], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -17144,7 +17154,7 @@ TtWeY+UQLZB7C/urU+59pdlyOCxjf/dfP3Jw0dFjuRxGvg3ex87nOrK15k85
 XDYUr8P2n8jro2ysgFPcxx7+i9/DpXBJjgpwjzZuxOY8VzBbKIKuK1KbsJ8z
 HbUQ3lsB+cGsrdhKlsW7OYwrwOd4zzPskrKfK+tuFWA63NOJ/T+g34Pn
              "]]},
-           Annotation[#, "Charting`Private`Tag$7613#1"]& ]}, {}}},
+           Annotation[#, "Charting`Private`Tag$3364#1"]& ]}, {}}},
        AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
        Axes->False,
        AxesLabel->{None, None},
@@ -17294,7 +17304,7 @@ q6tIazfcoazeK0S7G7Iz80hvwKY4bYoQibAe1yFggYzWTKe9mxAvmskZPSQ9
 Ol8hWqts/yZGutrmbkjrMbKeWfHeb2YsqLj/8vJ7fyEuY3n1tZG+rvOxfixQ
 iKm/LEYfks4vnJ3+EyxEqS+5i4Wk/wdTgqgK
              "]]},
-           Annotation[#, "Charting`Private`Tag$9172#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$3955#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[1, 0, 0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -17404,7 +17414,7 @@ pI09GuDScN2JCoa2dzLp/jRB/nnHhQoWb6396H797rZuiwcVBsv/idLdZPDY
 r+c0Fb6tL60Cdm19562RM1QQfL+pl+4yxbE2mg8VXuzcW0737aKVpX++VJDq
 9Emg+39+D2kY
              "]]},
-           Annotation[#, "Charting`Private`Tag$9226#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$4009#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[0, 0.5, 0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -17529,7 +17539,7 @@ rrEuddG9XXy5X98yF2YEtfSeYk/9M4yLssuFUXelw0XYoz5OtQkOucA0m3qe
 7v5x8kSWUy6EfvuWQfeHzsdada65cMx+I1cx9mudGq9PF3LBgWv4JN2VL9of
 jVzMhayo5Kt0F8p8b55xz4W5ZtlXdD/O/rO07pkLaCFvke7/AcVwf9g=
              "]]},
-           Annotation[#, "Charting`Private`Tag$9280#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$4063#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[1, 0.5, 0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -17623,7 +17633,7 @@ MGzmoKGNTfwyTUtwpoHm5evi1tgfg9waM11oQJxlzbXHHp0Jn73jRoN8vSX2
 E9idr4t0W8k08OmUnnPHbtZ7QnnjTQNZhVgbb+zHDb23PvjSwPa9daM/dpns
 p65FfxocOVAkFIRdVPxj7U8gDbitqRdCsf8PDZhunQ==
              "]]},
-           Annotation[#, "Charting`Private`Tag$9334#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$4117#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[0.5, 0, 0.5], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -17795,7 +17805,7 @@ FphiCU+vGEUHncuDljCOFWvs4esXahPP50GGj1g34Z4xzwnahTx4KadSSrip
 jarf4JgHV587Xyb84lC1a/vlPBBrSDxAuKLmQ+bQ1Tzwzq2XIFyo/O3dnFMe
 SLgv/jmDTc35/WvNJQ8y9yh1Ef4fMsX6aQ==
              "]]},
-           Annotation[#, "Charting`Private`Tag$9388#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$4171#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {GrayLevel[0], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -17844,7 +17854,7 @@ KPL6Y2Kaco8wbPi+LxfVc9b5fqP86m2xZSuLi24edtYiys0H6kLeBXCRl2VQ
 853ys/rOvE9nuHgjPVNrmfIjw8HXk4Fc3LQ1Nk38OwnFJQtzy8Fc9Nm3tLiC
 8r/Ju98y
              "]]},
-           Annotation[#, "Charting`Private`Tag$9442#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$4225#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[0, 1, 1], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -17919,7 +17929,7 @@ Tsa2atqDfxzio/14mNRkrP6INnWQXZnkz8OilAalh7Q7Px39cpPNwxMfxWQe
 0H7ddMOyJoiH3SzmRBntapsHIe/38LChjzNUSrvs0dsMwT4eah/Q6S+hfUe/
 r27kAA+XpEd9LKZ9I+/XzxkOD7vmhrfxaf8P1Y4WTg==
              "]]},
-           Annotation[#, "Charting`Private`Tag$9496#1"]& ]}, {}}, {{{}, {}, 
+           Annotation[#, "Charting`Private`Tag$4279#1"]& ]}, {}}, {{{}, {}, 
           TagBox[
            {RGBColor[1, 0, 1], Thickness[0.005], Opacity[1.], 
             LineBox[CompressedData["
@@ -17993,7 +18003,7 @@ NqTObUgKwu4fDf9+k8EGdvDJTH/stq6S/a0+bJgVTrzPxH5s2hDcfYwND2TQ
 UwZ27aOO68PH2TCa1/SGjn1H/ctLMoANb+J5xlyxS0oX5peD2NDyj9AfZ+z/
 A/kDFVs=
              "]]},
-           Annotation[#, "Charting`Private`Tag$9550#1"]& ]}, {}}},
+           Annotation[#, "Charting`Private`Tag$4333#1"]& ]}, {}}},
        AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
        Axes->False,
        AxesLabel->{None, None},
@@ -18040,8 +18050,8 @@ A/kDFVs=
    3.893261576976799*^9, 3.893261604619578*^9}, 3.893261674679727*^9, 
    3.893261743835843*^9, {3.8932617766404495`*^9, 3.8932618045384984`*^9}, {
    3.893261840988516*^9, 3.893261872354461*^9}, 3.893262218762625*^9, 
-   3.893262279347016*^9},
- CellLabel->"Out[83]=",ExpressionUUID->"d892fac3-9322-4e87-b677-e1b29a55233b"]
+   3.893262279347016*^9, 3.893526786878845*^9},
+ CellLabel->"Out[37]=",ExpressionUUID->"510bb39a-f3b7-4d93-8f4d-c978a63b5cdc"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -18081,19 +18091,21 @@ Cell[BoxData[{
  CellChangeTimes->{{3.8932620078606443`*^9, 3.8932621089954195`*^9}, {
   3.893262147236437*^9, 3.893262164576727*^9}, {3.8932622829178085`*^9, 
   3.8932623537903585`*^9}, {3.8932624556698723`*^9, 3.8932624648201275`*^9}},
- CellLabel->"In[87]:=",ExpressionUUID->"bdab6054-2c32-422a-9410-672b1390b53e"],
+ CellLabel->"In[38]:=",ExpressionUUID->"bdab6054-2c32-422a-9410-672b1390b53e"],
 
 Cell[BoxData[
  TemplateBox[{
    TemplateBox[{
      GraphicsBox[{{}, {{
          InsetBox[
-          GraphicsBox[{{{{}, {}, 
-              TagBox[{
-                RGBColor[0, 0, 1], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+          GraphicsBox[{{{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0, 0, 1], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV1fk/1IkfB3BKUsgog63kTLqs3EPj/XbfhBzVbimlYyfMGowhd64avqWU
 EbknlFw5Q2tCER2LlkTKOjJ8sMpR2fX94fV4PZ6P1x/wUjzl63xmjYCAQMpq
 /t8aVQ21lWIk6BsmU2RlmbCXqWs/Sp+C5vB1XxQVmKB9zWtrAf0HzPl/ntm9
@@ -18146,14 +18158,16 @@ r1oJOyP2unDRdi3tlKsNAaQ9i/3W7lxM0o8xF7UlgP/DPjn2BBez3SsXGHYE
 fPrd6/HNk1w0ezXypWvV/WPMiTwvLs75bH2mZk/As9e5pryzXGwvHB9/t+om
 i1q/N+e5mCdarKfjQEBVfVfG8G9cnNjRejRp1fc1RtpnLnLRr9XBeWzVuflL
 C//6clHy7yM70JGA/wDj/lcv
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$8203#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[1, 0, 0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$3467#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[1, 0, 0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV1nc8lV8YAHDKKDtlRMMKkZIZ4jxGSMgIkZKRmawyKykJley9xxUJEVFC
 IZVfhEJI7yVbeUVGyO/01/18P2fde84zrqCdh8mFTTQ0NJ60NDT/PqWrX9Y+
 ZeFAnn4TXDQ0JJL0VzAY8/qBytZX1vbTk0guxp6P4rWO6l7b9MUykah29x+a
@@ -18276,14 +18290,16 @@ xvcRu4K8UnZEphAoUfzrH7Cz+7O3WigUAoPn0dZ32FdLF1/GqRWC5A27S6+w
 P25RCGmKdssPsWfWDR6E2RTCvrB02hzsEW/7ugTbQjDcTmHMwu4f95/Mty8E
 NxNJ9gzst515mk1OhRB/Ml8oBbtBu9azywV/n9cJB5Owq1+0Z1DdCqHt5F+V
 BOwS6e/vSfdCqOka1IvDzitYWdrwKASlfdJnYrD/B72MOqA=
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$8257#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[0, 0.5, 0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$3528#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0, 0.5, 0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV13c8V98fB3CZZUdmkYYUKVmhOG8jkSJEMrIpZWbvmZ29Ze8kO0rWx947
 IeUrEtLno0iL3/n9w+P5uPdz77nnvt+vc+4xM3stS3IyMjJb/Of//0Xq3zTW
 0jOjSzJf2MjIiEjIXfLGsuNXpJhI2/GZkojE48y5ixz/IePKrKD4A0TUyPOb
@@ -18491,14 +18507,16 @@ UP9L7SOaxYCiT1LpYB+HQX8h7WKgE3smrI7NLLgzo3q7GPboLjwB7PV/N2Ie
 GxeDpUxlFD/2opN5U5JpMZjfoX7Hiz3z2f1LgXkxVF2zEeTE7hnNVyRYF8Pv
 MbU5WuwW5UaHsfvFoB7QdpkSu/710NOFB8XwTEQi798lnJ8in/qItsXQvJ5H
 /xM7v/DXzz37YpBoo/YmYv8PI3Tpdw==
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$8311#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[1, 0.5, 0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$3582#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[1, 0.5, 0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV13k4VGscB3CkXFlbhBApUVJCkqX3J2UrYpS2q8V+7cPYlzkGo01CRSVb
 GLlFyZZElrqhsmUJJYlSg5k5ZYm4b3+d5/O8z3POc87v/X1/71nv6EtxEeDj
 4/uLn4/vz1Wz/OnjUlFJ5G7/VYqPj4PUQ3StRqnj6HLNmmCeIAfpJDmtzaf+
@@ -18588,14 +18606,16 @@ wsYdWxleE+p2LKhgNrzaiy25ZabP4igLDJ21fk9bsBH7t1Ui8zQLaH4CBk7Y
 w/5O1dfO4vV2S7092H1fQsZynVgQRnSbyWK/bL9j0uDGgkLG1dut5mxUa/rY
 r+MfFjzfUTZciF3+5M3tIU8W3Pvy04CJfU/zczPHmwX+HVb5Z7Hv5M1OL/qy
 YKtSqbIR9v8iHiD2
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$8365#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[0.5, 0, 0.5], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$3636#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0.5, 0, 0.5], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV1mk4VV0bB3BDyKwMoYSeopJISMR9o0Q9VEgheRIp8zFzcA5Co0JlikKc
 SDJnbDgiQ0pESCJRpoxnh4p3vx/2ta/fl73WXuu+/2vJO3iaO3GwsbEtks//
 36rltZWlAiKQb/ZDnI1tGpQCNU1HKJMwYbtNfTXXNKjHnZXOofyFwY8rMWJ8
@@ -18681,14 +18701,16 @@ yKUYWK+fywR1q0wFwSMMDO1tULiUxgSllqcWG44xkO3z7uNid5mwCVvpShYM
 /H6NwvWbN5nQ+z1w9MFZBn6/yuH8zw0mNL7PMqxzZuDQYJPp4WtMeG5U6dV+
 gYH9L2atB64wobz6bdqgKwNf/X0t53+ZCfmq35qn3RnIc+BHhsAlJmRlL/5a
 8WSghOFsX1Y0E/4HLEmwtw==
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$8419#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                GrayLevel[0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$3690#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  GrayLevel[0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV0mk0lQsXB3CkQhGliJREigwhc/YmyVASV4OoUOF2EULRQOZ5luHQ4XAO
 EkXIRUm5SKaec455yk2Zk4qS633eD3vt9fuy/2vtvXc7uFte4eLg4Jgj6/9d
 ubKu+tlGQQg9rdGyujoH8jfVT4x7zMDt2XevbizMgVqCoxjdYwW0rns8XBif
@@ -18770,14 +18792,16 @@ prSRpvZRec+oM9BIR7yshfTtkh91SXoMPPBn5sor0mqnc/fyn2QgV/TZ3jLS
 F3qRgW/W/hLIIz3m6VibYs/AVbuPOrmk+z7dnMhzZGB0i+KfVNLNXbQjr50Y
 GJfb/ZZC+qVR9fX3Lgzk/qa2kkG6sqY9a/QaAxskp5XTSRcr//v2iysDm8V+
 X3lAmpb/c3HVnYFbmY6UFNL/AyfyNrw=
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$8473#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[0, 1, 1], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$3744#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0, 1, 1], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV13c8Vt8fAHCjJKlUVkqh7JHsfT5W9s6sbB5k5pv9SxFJZkVWwpORRGQV
 aVBCSIlCRsY1n8eqUPE7/XVf79e5r9c593zGOZfX2c/cjY6GhsaMlobm31Oy
 9vnTamYW9KybxExLM4pEQ+SMpgIWUIj5xTQb1VEkk+rCVRTwF7GO1lM1wkbR
@@ -18890,14 +18914,16 @@ j2uxZawKBHabFMNw5B61JmzRjjqLw2bFkImyxF5g80HnZVGLYmiWDeR6ic0i
 sjagZ10MV0f2rL76tx9/jZJjHYohYuR37hvs8QsujWlO2Dtp4t5iDxAhM/dd
 ioE/19K/FftdD1mzmVQMCby/1NqwX5x66v/RsxhsubX427FrG7rujp0vhtm7
 E0wd2GWSE+2LPsXwTvgr9Z/Jheu/tvyKIViHr/c99v8B+Fdozw==
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$8527#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[1, 0, 1], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$3798#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[1, 0, 1], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV1Xc81d8bAHBkVAiRmTKyIyGkch4zKpJZImUke4ZQkr2y975WpKLMlAqJ
 fAmpfK5rhkTGLWU0/M7vr/t6v87zOefzeZ7nPFfY1sPYgY6GhiaRlobm/7/y
 Dc+b61jYkUSexNZduXkkE6BsMOu1iBirKs/eOzGPlJLt+Mu9/qJz11O1np+Z
@@ -19032,48 +19058,62 @@ d18xtpI5SZz1bAUIb/HS3sWW6Wk02XuuAjL52xLjsEWg97aMSQVQfEEoBptd
 ep2sb1EBpdaNuuHY3/4aJEbaVADzScfKQOzP3nbP0q9UQHdhqm4ANvlLwNdS
 uwqglYiduY7dNVCi1e5YAXWq/ZJe2C90mz0HnSqAb2tvrzt2Q0tf/qRLBfS6
 yPm4YlfLT79dcauAN3u3CThjl5RtrG15VMDmo+wOR+z/Ac4dE1c=
-                 "]]}, Annotation[#, "Charting`Private`Tag$8581#1"]& ]}, {}}},
-            AspectRatio -> NCache[GoldenRatio^(-1), 0.6180339887498948], Axes -> 
-           False, AxesLabel -> {None, None}, AxesOrigin -> {0, 0}, 
-           BaseStyle -> {PrintPrecision -> 2}, DisplayFunction -> Identity, 
-           Frame -> {{True, False}, {True, False}}, 
-           FrameLabel -> {{None, None}, {None, None}}, 
-           FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
-           GridLines -> {None, None}, GridLinesStyle -> Directive[
-             GrayLevel[0.5, 0.4]], ImagePadding -> All, 
-           Method -> {
-            "DefaultBoundaryStyle" -> Automatic, 
-             "DefaultGraphicsInteraction" -> {
-              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-               "Effects" -> {
-                "Highlight" -> {"ratio" -> 2}, 
-                 "HighlightPoint" -> {"ratio" -> 2}, 
-                 "Droplines" -> {
-                  "freeformCursorMode" -> True, 
-                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-             "DefaultMeshStyle" -> AbsolutePointSize[6], "ScalingFunctions" -> 
-             None, "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
-                 (Identity[#]& )[
-                  Part[#, 1]], 
-                 (Identity[#]& )[
-                  Part[#, 2]]}& ), "CopiedValueFunction" -> ({
-                 (Identity[#]& )[
-                  Part[#, 1]], 
-                 (Identity[#]& )[
-                  Part[#, 2]]}& )}}, PlotRange -> {{0, 3000}, {0., 1.5}}, 
-           PlotRangeClipping -> True, PlotRangePadding -> {{
-              Scaled[0.02], 
-              Scaled[0.02]}, {0, 0}}, Ticks -> {Automatic, Automatic}], {
-          180, -111.24611797498106`}, 
+                  "]]}, 
+                Annotation[#, "Charting`Private`Tag$3852#1"]& ]}}, {}}}, {
+           PlotRange -> {{0, 3000}, {0., 1.5}}, 
+            BaseStyle -> {PrintPrecision -> 2}, Axes -> False, 
+            Frame -> {{True, False}, {True, False}}, DisplayFunction -> 
+            Identity, Ticks -> {Automatic, Automatic}, AxesOrigin -> {0, 0}, 
+            FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
+            GridLines -> {None, None}, DisplayFunction -> Identity, 
+            PlotRangePadding -> {{
+               Scaled[0.02], 
+               Scaled[0.02]}, {0, 0}}, PlotRangeClipping -> True, 
+            ImagePadding -> All, DisplayFunction -> Identity, AspectRatio -> 
+            NCache[GoldenRatio^(-1), 0.6180339887498948], 
+            Axes -> {True, True}, AxesLabel -> {None, None}, 
+            AxesOrigin -> {0, 0}, DisplayFunction :> Identity, 
+            Frame -> {{False, False}, {False, False}}, 
+            FrameLabel -> {{None, None}, {None, None}}, 
+            FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
+            GridLines -> {None, None}, GridLinesStyle -> Directive[
+              GrayLevel[0.5, 0.4]], 
+            Method -> {
+             "DefaultBoundaryStyle" -> Automatic, 
+              "DefaultGraphicsInteraction" -> {
+               "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+                "Effects" -> {
+                 "Highlight" -> {"ratio" -> 2}, 
+                  "HighlightPoint" -> {"ratio" -> 2}, 
+                  "Droplines" -> {
+                   "freeformCursorMode" -> True, 
+                    "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+              "DefaultMeshStyle" -> AbsolutePointSize[6], "ScalingFunctions" -> 
+              None, "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+                  (Identity[#]& )[
+                   Part[#, 1]], 
+                  (Identity[#]& )[
+                   Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+                  (Identity[#]& )[
+                   Part[#, 1]], 
+                  (Identity[#]& )[
+                   Part[#, 2]]}& )}}, 
+            PlotRange -> {{0., 2999.99993877551}, {0., 10.}}, 
+            PlotRangeClipping -> True, PlotRangePadding -> {{
+               Scaled[0.02], 
+               Scaled[0.02]}, {Automatic, Automatic}}, 
+            Ticks -> {Automatic, Automatic}}], {180, -111.24611797498106`}, 
           ImageScaled[{0.5, 0.5}], {360, 222.49223594996212`}, 
           BaseStyle -> {Graphics3DBoxOptions -> {SphericalRegion -> False}}], 
          InsetBox[
-          GraphicsBox[{{{{}, {}, 
-              TagBox[{
-                RGBColor[0, 0, 1], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+          GraphicsBox[{{{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0, 0, 1], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV13c4FW4bB3CUSlHKpqQURUWS0I/7NiNKEkpEiBZZcYaZkex5bI7jnCNC
 2ZGQGRLJqiSjRJKkZFTe8/71XJ/r+V73eP57dtneOnuFg42NzYmdje3/p3zF
 06oybl6QSJbrXV2dBVmC0qkJ1xm4vqrKc+DXLCjG2okyXf9Cj35zydGpWaja
@@ -19200,14 +19240,16 @@ fKtvnouGKsZX3pNY7/H3VHSIdS5m3nT7/JhIgHE3u5rEy7ko89nmnAvLbz8T
 puh2uXj8gcSSNMvPX+VoNTqy5v9oP5VEIECdbpVLz7VcpDfFKp5hueLJy4zR
 G7k43jBSsYHlAvmP7d+dcln/EymXZ14EyGEs/V69lYtms0dtSCz/D5/658U=
 
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$9657#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[1, 0, 0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$4438#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[1, 0, 0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwd13k4lN0bB3Ah2ZcihBIle5IQ6dwYVJaykzc7U/bd2MZWlJIoKWQrJiWV
 iCwJpUVFsqS89n2ZGUukXvmd+f011+ea57qec+5z7nO+z25XfwsPZiYmppOb
 mJgYvyrPG15UcvOjGNKero2NQaRAUjedCJxHXnc1vVq5hpBautuOksB11NIw
@@ -19318,14 +19360,16 @@ YqvZFMnwnKTAqxnaVjNshbZqS3FzCrTLSIyZYkvBpzgFSwoopXtWMcwv/+v7
 cVsKiD82tWN4bt00LcmJAtX63vkm2KNBbvWZLvh5GVIgw98nSdP33CgQ+6xA
 n+F3X+7qtxApsCmVMGWM3Wj4IqDzHAUsaxprGX5e9/nOsDcF2kxsUhkuUxn7
 QPelwOphdmeG7xavrW74U8DLv1uV4f8BTzXaxw==
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$9711#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[0, 0.5, 0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$4492#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0, 0.5, 0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV13c81d8fB3BKUkb2KEoiu2SPOG8joUi2lk3Ze4+LqJT8kMoIKW6phIgQ
 cSkjJbOQr5Jsn4uyKn7n/nUfz8f9fB6fzznvc8779dnv6GPmsoWOji6Bno6O
 9iv38vWrChZ29C5lml9BgYKkQ5WNf/rNoWHPhZUoWQpSTHXaXeT3D+mHmbp0
@@ -19454,14 +19498,16 @@ RaCTJG1OBt3IlUaa2aVWBw2tyUCxzTC8hz37zzgl0Y4M8H3SKhd7zN+pLsOB
 jPPH50yaBydCpx46kSGMOX+Y5tZPD3QpbmToC37pkIfdoP/Kt/sSGZjub3tI
 88vaD/e+eZDBb0zmJ81P5X60U73IsGApI5GP/aBwbWXThwye7AzuNP8f+lYB
 tA==
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$9765#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[1, 0.5, 0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$4546#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[1, 0.5, 0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV1nk0VesbB3DplspxUx3R4F5kKmMyRr1PptQNmadk7pRkuuVWkgaZ5zIP
 R6eOc0nSCUcXcQ0prkYUSUTR3sfZxgwNfu/vj732+qx3rb32+7zP891b1jvI
 1k9YSEioDV//v2tW1z+spImjFu+S3qUlEqmc1bX8HDKOjMurQw3nSKSd5rO5
@@ -19530,14 +19576,16 @@ y0HnJRU7DuhsGbUcxxbfMd93wIkDTvqmr+aw+T8sU6I9sNdp8GhzFBoO9anL
 8OJAheOPsXXYfaNnv9z24UBsaY+kJPaTl7dMmhkcEJ+tCJDFbjB/GPzqBAf8
 larSFbGra58VDJ3kQNaH9ioV7DLNkfaJUxwIqp3u1sS+xV6YWwriQKvzzmkd
 7P8B5b8zag==
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$9819#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[0.5, 0, 0.5], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$4600#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0.5, 0, 0.5], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwd1nc8lV8YAHCVVKRUVGhIRlFCdnEelJkyQikNZLQQWUkkM3tv977XiETZ
 QmYkpbKSLdnj0rB+xe+8/rn38/3cc99zznOe5zzvARNr3RtrGRgYtuIP8lu0
 sLwkfzMbyqjTtU9OrkDCTlJaw7ZTyOn0uGtJZAWSCDXlSrP9h/hfB+xdH1CB
@@ -19707,14 +19755,16 @@ x4dF0yE//bsh6dyZ+zky4ulwY8NZPtKUTsomQ6l0OH9Uo9wJ2zV7rjxcIR14
 ZhNa6FQ3TIfy3ecCSE/+0wr2vpoOm3PZq+2xB++ZlkVeT4fljrRg0p0jTmMp
 punQL6hiTPrdF5pyjUU6EBezFsj37wqVEptmq3SI1bCrI11Y2pQ4cCsdsh+p
 RpDOEv3xfuZOOkytHDIhTUtdnF+xTofrzbtESf8PqC14Cw==
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$9873#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                GrayLevel[0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$4654#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  GrayLevel[0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwVz3k4lAsbBnBOi2yhZCkJWSqUrEX1PCmisodWqhFSjImko4SQrEkJZWks
 0yJbg5SlY2lzqBNSFMOYGfuLFjMo3/v98Vz39bvuf+5H9STV8dRfQkJCceT9
 P/UqaqqYEtLwdDMvxNCgDbSDjW24tDGgONVPiYe2gWEyZWUB7TeEB+oqDb5u
@@ -19764,14 +19814,16 @@ EzLhezaSVsOWMG0nBv41/EB/M2npDfwua1cG6rsWLzAhPfrbJinanYHSBswb
 5qTZ5yjVt08wUKw1nWpBuosXPJRHIffvaNhvRfrNf7m7GrzIvokjbEu6zrLK
 /+NpBjoSrC/2pCtetGb2nWFg7wr1EifShXoD7yZ8GXjRvCTShXRuvmB6nspA
 Tmi06yHS/wPycFfm
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$9927#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[0, 1, 1], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$4708#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0, 1, 1], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV0mk4lA8XBnBUQ5GQZVJKsoUkIVTOIVSE7AnJOpIw9tCmUilps4SsMVKJ
 sVW2aFP+tFFCPPPMjH1rtVR65/1wrvv6fbrvD2etV7CdrwAfH18F7/6fWtX1
 jypFxOD7Y3/q/L9JUI/Wsxqgj0OVZUiD5+1J0LnqLVtE/wti0Udt/3pOgtp3
@@ -19834,14 +19886,16 @@ UZ7VW2vsV9kysFWddm0pzwrYdlLdnoEzvgaOIjyLqc1073ZmYEvOyi+LeR77
 a5Wc4MHAgi+vfy7kmR3qXZfiyUAl5pv6BTx3D0YP3/Zm4OKeKwkCPLe8K9jx
 lMbr8zeX5eO50fxRyPtDDGSPGnDn+Xn/UNt+i3WYgRoCQ2V/eb6nxXk9dYSB
 Lwz3HvvDc0Hh7PS/YAaaKYVa/Ob5f2sTYLg=
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$9981#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[1, 0, 1], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$4762#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[1, 0, 1], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV1nk0lN8fB3C+QlJSRImSbEWimETcj7XIvm/ZNZaZGNuXLEXfJIkoa0K2
 KUXZslaivSghohAiM8PMk0oo/e7vj+c853Wec55zl/f7nrvDO9jG7x8uLq5P
 +Pn/W/Xe/eb6tcJo58q+Kmv1D0gpimQ+RZtFvH25H5SvfUDqGT4SFbQ/6JZa
@@ -19917,50 +19971,63 @@ ySsWW92hRH6dJR08v4pMemArvWq0lbSmw5WlLe5u2DLQdVrJlg7CFL0hJ2zh
 3b+GTBzpUBTAHrTGZv0xT0/yoMNiYxnbAHsi1Kcty4sOtKrMk4A9NB01U+ZD
 h2vLOfw62M97Sg06yXR4VjihQMJ+aNwc8i6ADjtCFVr3Yd9r7b72OYgOE/lx
 Vnuxb6tOvuRQ6aAzODmthF1avrjwN5gObjOuCYrY/wNvk7t0
-                 "]]}, 
-               Annotation[#, "Charting`Private`Tag$10035#1"]& ]}, {}}}, 
-           AspectRatio -> NCache[GoldenRatio^(-1), 0.6180339887498948], Axes -> 
-           False, AxesLabel -> {None, None}, AxesOrigin -> {0, 0}, 
-           BaseStyle -> {PrintPrecision -> 2}, DisplayFunction -> Identity, 
-           Frame -> {{True, False}, {True, False}}, 
-           FrameLabel -> {{None, None}, {None, None}}, 
-           FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
-           GridLines -> {None, None}, GridLinesStyle -> Directive[
-             GrayLevel[0.5, 0.4]], ImagePadding -> All, 
-           Method -> {
-            "DefaultBoundaryStyle" -> Automatic, 
-             "DefaultGraphicsInteraction" -> {
-              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-               "Effects" -> {
-                "Highlight" -> {"ratio" -> 2}, 
-                 "HighlightPoint" -> {"ratio" -> 2}, 
-                 "Droplines" -> {
-                  "freeformCursorMode" -> True, 
-                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-             "DefaultMeshStyle" -> AbsolutePointSize[6], "ScalingFunctions" -> 
-             None, "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
-                 (Identity[#]& )[
-                  Part[#, 1]], 
-                 (Identity[#]& )[
-                  Part[#, 2]]}& ), "CopiedValueFunction" -> ({
-                 (Identity[#]& )[
-                  Part[#, 1]], 
-                 (Identity[#]& )[
-                  Part[#, 2]]}& )}}, PlotRange -> {{0, 3000}, {0., 1.2}}, 
-           PlotRangeClipping -> True, PlotRangePadding -> {{
-              Scaled[0.02], 
-              Scaled[0.02]}, {0, 0}}, Ticks -> {Automatic, Automatic}], {
-          540, -111.24611797498106`}, 
+                  "]]}, 
+                Annotation[#, "Charting`Private`Tag$4816#1"]& ]}}, {}}}, {
+           PlotRange -> {{0, 3000}, {0., 1.2}}, 
+            BaseStyle -> {PrintPrecision -> 2}, Axes -> False, 
+            Frame -> {{True, False}, {True, False}}, DisplayFunction -> 
+            Identity, Ticks -> {Automatic, Automatic}, AxesOrigin -> {0, 0}, 
+            FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
+            GridLines -> {None, None}, DisplayFunction -> Identity, 
+            PlotRangePadding -> {{
+               Scaled[0.02], 
+               Scaled[0.02]}, {0, 0}}, PlotRangeClipping -> True, 
+            ImagePadding -> All, DisplayFunction -> Identity, AspectRatio -> 
+            NCache[GoldenRatio^(-1), 0.6180339887498948], 
+            Axes -> {True, True}, AxesLabel -> {None, None}, 
+            AxesOrigin -> {0, 0}, DisplayFunction :> Identity, 
+            Frame -> {{False, False}, {False, False}}, 
+            FrameLabel -> {{None, None}, {None, None}}, 
+            FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
+            GridLines -> {None, None}, GridLinesStyle -> Directive[
+              GrayLevel[0.5, 0.4]], 
+            Method -> {
+             "DefaultBoundaryStyle" -> Automatic, 
+              "DefaultGraphicsInteraction" -> {
+               "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+                "Effects" -> {
+                 "Highlight" -> {"ratio" -> 2}, 
+                  "HighlightPoint" -> {"ratio" -> 2}, 
+                  "Droplines" -> {
+                   "freeformCursorMode" -> True, 
+                    "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+              "DefaultMeshStyle" -> AbsolutePointSize[6], "ScalingFunctions" -> 
+              None, "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+                  (Identity[#]& )[
+                   Part[#, 1]], 
+                  (Identity[#]& )[
+                   Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+                  (Identity[#]& )[
+                   Part[#, 1]], 
+                  (Identity[#]& )[
+                   Part[#, 2]]}& )}}, 
+            PlotRange -> {{0., 2999.99993877551}, {0., 10.}}, 
+            PlotRangeClipping -> True, PlotRangePadding -> {{
+               Scaled[0.02], 
+               Scaled[0.02]}, {Automatic, Automatic}}, 
+            Ticks -> {Automatic, Automatic}}], {540, -111.24611797498106`}, 
           ImageScaled[{0.5, 0.5}], {360, 222.49223594996212`}, 
           BaseStyle -> {
            Graphics3DBoxOptions -> {SphericalRegion -> False}}]}, {
          InsetBox[
-          GraphicsBox[{{{{}, {}, 
-              TagBox[{
-                RGBColor[0, 0, 1], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+          GraphicsBox[{{{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0, 0, 1], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV13c8lV8YAHAphIzs0UBkZyRJOI+RUEZGQypcW1bWDZV1rxHutWeIa/5Q
 NglFKlFGkRZJyarQIsrvXH9cn+/nvu9733PO8zznPOKOPpbOjAwMDEfwB/2/
 clN7a8M2bsRjI4T/iEieqG467fcFKZhwrPNjqyUTREr9/iLZmod/mbHlvvPH
@@ -20148,14 +20215,16 @@ UC0DmX6203QXvi5kPaVeBnk5B1XoDqv51Z6qUwZPfph+jKXn48mivRzmZbCN
 z8GUbgl4Gi5vVQZVc9oydHPLrbw2PlUGrTUnN9O98NeUQr5QBqdA804M9uvP
 xFkaoQy2+G7JoPvxULF+t2sZDO9hvUR3U9uzG5OeZdD596gZ3cUlq783fMqg
 v+CeHN3/A9pqgdc=
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$7235#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[1, 0, 0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$2986#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[1, 0, 0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwd2nc8lV8YAHChZEvIKFSk7CQiOU9GqGRT6CeyIsmeUVZm5kVc61pRVFZK
 k5RrXltCVEahSEVRfuftrz7fz/u+Zz7neY77aaedu7EDPR0dXTEDHR3xr3zd
 k4c1bFyIUiTC9H39K5LyV9Kf8phHe8WaSvgt55Fi8nnBEo8/qJ8mFr62+BlJ
@@ -20450,14 +20519,16 @@ uddZAi2J6amEp53IVYpzJfDt2p8Iwo2Hvzl6fMfvy6T+W49cTl2hyrUSmD7F
 FEzY/MFSuAR7KcSapP9bz+ZNJ8wEZUvh5dKdf/uRP5zPbKFUCp5W188QDq78
 +SRVvRT8uUxNCSuaU/awG5QCf0ab3r/9lVwZ1rMohd/0gVr/5vNHPzHKphQq
 OHYhwi3dhZpNTqWQpPVahXBh8a/ldfdSuBXnqkj4f4DQ1oA=
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$7289#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[0, 0.5, 0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$3040#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0, 0.5, 0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwd2Hc8lV0cAHBJFIqULamoCElIyPMLGUnZRUNWQmY2lb33uNe8RkiSklHX
 3rPMjCTllVFUNBDFe05/+Xw/9z7nnvEb57HPzEHXkpaGhkZkMw0N/itRUUMt
 Y2YlAgQ3IS0QRzxktKadvhCRxbJHd25eIKTizHnynf4SCseYbz7eukCI/GAP
@@ -20713,14 +20784,16 @@ vPOTmM8F4w2jJey43zlyTMx5cD0zfQPb2HSPc7twHpQotDHg8zzQQX4YpJYH
 onjPUpbzoM5R9V88XXocbDkhkw9nOp/LYiu/WvQVdMuHW0p/TmEn8bSliJbk
 g0+a9L/4nLFKfyY1nw8eETuVsVvoNQ14xB+Az39v/vl+3u/lDYcHYMed9s//
 A7O5pC8=
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$7343#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[1, 0.5, 0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$3094#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[1, 0.5, 0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV1nc8lV8YAPB+DUWU7LQkRSSSbM6TLXuXkWRW9h5N2XuFZHOtjMiqrAgh
 I4WSZCTjXvdeZabyO+4f936+n/O+73mf5zznuef4dWc9m+3btm2jxV9bv8I1
 DS+q6BnR2uIm/lCQgI+Y5g/XBSTM+kDGC1s0zooz3/Uv4mBjqB/9S0H8v1hD
@@ -20892,14 +20965,16 @@ jS3QXat/WLcAdDauOWyZG3ruC+gXwDzX07NbZuRfG1EzLoCRhu/Pvbby8Vcz
 JtiiAHIcZ5o9safcrOofWRZA/53ywC2PzPjM5VkVAFwuVd3y2/e5Cq12BWD/
 XO29B3aT8guXgRsFMDo882jLNa960ydu4ffZ98pkyyXC37uojnict/XYlnMJ
 66ubzgXAs7r53R37f03V8Xo=
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$7397#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[0.5, 0, 0.5], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$3148#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0.5, 0, 0.5], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV13k4VO8XAHAqlD0lW4oipEQkSzrHUmiRJSopUdEmicjSYpesd8zYmRkz
 I7Jll0QplBJCyBJKloRWS9/63d/95z6f55x7z3ve597zPK+8s7v12SVcXFwX
 ubm4/n9XL6+pKhUUBeX2f+Q1DarXtQ+OekxB6sl9Jyv/ToNW/Glpjsd/kGZg
@@ -21024,14 +21099,16 @@ Bnx9W9UmG0vlKKO8pEU3z/WaH8lGvp4vSjPryP3472BsmGM2nhanydeTHrl6
 +hHVKRub6pLmKkj3fr4+zjqdja2Fzj15pJvasozrXcl+3qpW0kjX7q260n4+
 Gy0bpMvvki6vbkkfupiN/j5FNbdJ56l/fDnjlo3iDR9brpHOYs///ueejUNx
 heMXSP8PDB7Ihg==
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$7451#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                GrayLevel[0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$3202#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  GrayLevel[0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwd2Hc8VW8YAHC07YjMjJBC2SPjPCQzI7M0laIkRCWUPSJc+5r3urYkFVLZ
 MtL8NaSSci+S0SVFKH7vyz8+3885zjvO8z7Pc0id8LY7xcbCwhK+ioUF/1au
 a3xQw8lLsKz8TBEKAZpWI76TRFhfYNzyMpNQTz4pUuL7j/ismuv8F3nHjECM
@@ -21312,14 +21389,16 @@ XH88mJtQXwKz5wN3Yo95/aX8aC4B8S12ytgGrSol1S/Q/Hgeq2GnbHKvvPC5
 BATNRjSxv7nn3lWfKIGeU490sPN5zESr/pbAwvwNvZX135+J2MZVCuq31xDY
 3McoE1TxUvhZqLDSD3SstXQU2VkKfGKr9mCrO9HkuGxKwSLn3V7swuL5uWXv
 UiBtzTPF/h9spYOw
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$7505#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[0, 1, 1], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$3256#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0, 1, 1], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwd13c8lW8UAPBUKFkJhZJIyUoSJbyHpJQyIyLZ2VuUiuy9573h2iuZUWRd
 e96ULSPRQBllpfye99c/fb6f937e93mec55zjmPG9hpmO3fs2DG8a8cO/H+x
 V29fl9MzY0fHt9G/CUzIXfLGrOMCJpLxN/Lp1gQmEWXCme34F9vvMf3jwPIE
@@ -21631,14 +21710,16 @@ KjGfDZ6Mw0m4P6i30msuZoPMSHgs7saLy+aOv9D7GpQi/r9fTFe5irayQVKo
 r45kDprHaGX/v89Fq29j5HJg85fgWdwS2uknGFRz4MxM51HcvNDtJaSZA6Et
 tFy4mQXXR5R1ciDs03V23PN/b0T4G+bAw9QFetwjX9y/ZZrkgC6jyh7cbe8y
 LpEtciC1v2wX7lfVPc+nrHPAay//Nl5vMrI21rbtc0C0NnUT938M2N8x
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$7559#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[1, 0, 1], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$3310#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[1, 0, 1], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwd2Hc8Vl8YAHCUkb0SSklkRMmMcB8SUSGrQsOISvZIyF6Zr/3aeyRpIUqI
 QsmoZJXKj6TXeL0oWvzO6S+f7+e+995znvOc8zzXTjs30wsMdHR0Axvo6PBf
 +fonjbXs3ERrkttQ4l4KscdP5fiUxxwxJ5rUlISslGwvXO7xl3heHTCQiiyz
@@ -21946,48 +22027,62 @@ Znud8rApLn8K5lvQ+xzCC7G1nu4vv9tbDgMrpuXY05eP3eQZLAdRLpab2Cn8
 TtWeY+UQLZB7C/urU+59pdlyOCxjf/dfP3Jw0dFjuRxGvg3ex87nOrK15k85
 XDYUr8P2n8jro2ysgFPcxx7+i9/DpXBJjgpwjzZuxOY8VzBbKIKuK1KbsJ8z
 HbUQ3lsB+cGsrdhKlsW7OYwrwOd4zzPskrKfK+tuFWA63NOJ/T+g34Pn
-                 "]]}, Annotation[#, "Charting`Private`Tag$7613#1"]& ]}, {}}},
-            AspectRatio -> NCache[GoldenRatio^(-1), 0.6180339887498948], Axes -> 
-           False, AxesLabel -> {None, None}, AxesOrigin -> {0, 0}, 
-           BaseStyle -> {PrintPrecision -> 2}, DisplayFunction -> Identity, 
-           Frame -> {{True, False}, {True, False}}, 
-           FrameLabel -> {{None, None}, {None, None}}, 
-           FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
-           GridLines -> {None, None}, GridLinesStyle -> Directive[
-             GrayLevel[0.5, 0.4]], ImagePadding -> All, 
-           Method -> {
-            "DefaultBoundaryStyle" -> Automatic, 
-             "DefaultGraphicsInteraction" -> {
-              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-               "Effects" -> {
-                "Highlight" -> {"ratio" -> 2}, 
-                 "HighlightPoint" -> {"ratio" -> 2}, 
-                 "Droplines" -> {
-                  "freeformCursorMode" -> True, 
-                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-             "DefaultMeshStyle" -> AbsolutePointSize[6], "ScalingFunctions" -> 
-             None, "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
-                 (Identity[#]& )[
-                  Part[#, 1]], 
-                 (Identity[#]& )[
-                  Part[#, 2]]}& ), "CopiedValueFunction" -> ({
-                 (Identity[#]& )[
-                  Part[#, 1]], 
-                 (Identity[#]& )[
-                  Part[#, 2]]}& )}}, PlotRange -> {{0, 3000}, {0., 1.2}}, 
-           PlotRangeClipping -> True, PlotRangePadding -> {{
-              Scaled[0.02], 
-              Scaled[0.02]}, {0, 0}}, Ticks -> {Automatic, Automatic}], {
-          180, -333.73835392494317`}, 
+                  "]]}, 
+                Annotation[#, "Charting`Private`Tag$3364#1"]& ]}}, {}}}, {
+           PlotRange -> {{0, 3000}, {0., 1.2}}, 
+            BaseStyle -> {PrintPrecision -> 2}, Axes -> False, 
+            Frame -> {{True, False}, {True, False}}, DisplayFunction -> 
+            Identity, Ticks -> {Automatic, Automatic}, AxesOrigin -> {0, 0}, 
+            FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
+            GridLines -> {None, None}, DisplayFunction -> Identity, 
+            PlotRangePadding -> {{
+               Scaled[0.02], 
+               Scaled[0.02]}, {0, 0}}, PlotRangeClipping -> True, 
+            ImagePadding -> All, DisplayFunction -> Identity, AspectRatio -> 
+            NCache[GoldenRatio^(-1), 0.6180339887498948], 
+            Axes -> {True, True}, AxesLabel -> {None, None}, 
+            AxesOrigin -> {0, 0}, DisplayFunction :> Identity, 
+            Frame -> {{False, False}, {False, False}}, 
+            FrameLabel -> {{None, None}, {None, None}}, 
+            FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
+            GridLines -> {None, None}, GridLinesStyle -> Directive[
+              GrayLevel[0.5, 0.4]], 
+            Method -> {
+             "DefaultBoundaryStyle" -> Automatic, 
+              "DefaultGraphicsInteraction" -> {
+               "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+                "Effects" -> {
+                 "Highlight" -> {"ratio" -> 2}, 
+                  "HighlightPoint" -> {"ratio" -> 2}, 
+                  "Droplines" -> {
+                   "freeformCursorMode" -> True, 
+                    "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+              "DefaultMeshStyle" -> AbsolutePointSize[6], "ScalingFunctions" -> 
+              None, "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+                  (Identity[#]& )[
+                   Part[#, 1]], 
+                  (Identity[#]& )[
+                   Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+                  (Identity[#]& )[
+                   Part[#, 1]], 
+                  (Identity[#]& )[
+                   Part[#, 2]]}& )}}, 
+            PlotRange -> {{0., 2999.99993877551}, {0., 10.}}, 
+            PlotRangeClipping -> True, PlotRangePadding -> {{
+               Scaled[0.02], 
+               Scaled[0.02]}, {Automatic, Automatic}}, 
+            Ticks -> {Automatic, Automatic}}], {180, -333.73835392494317`}, 
           ImageScaled[{0.5, 0.5}], {360, 222.49223594996212`}, 
           BaseStyle -> {Graphics3DBoxOptions -> {SphericalRegion -> False}}], 
          InsetBox[
-          GraphicsBox[{{{{}, {}, 
-              TagBox[{
-                RGBColor[0, 0, 1], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+          GraphicsBox[{{{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0, 0, 1], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV1Xk4lO0XB3AkWiSEtKvsWpBsxTn2JVRGo5KkGbzZB8OYGdvMPCqSljdl
 yc5UbylC2hCtlkTiDaGUSrbI2lv9nt9f9/X5476e69zP+Z6z/miwi7eYiIjI
 VlERkf+fOhUP75ZJyYCJYt/1KBsaaLMMnAYYw7CQ9vjfONL6Z2krixi/ILnq
@@ -22091,14 +22186,16 @@ q6tIazfcoazeK0S7G7Iz80hvwKY4bYoQibAe1yFggYzWTKe9mxAvmskZPSQ9
 9MspJcFTiFT5JQWepPtDaQ8ueAlxzZiHlx3pzs+srwU0IQb9OrBJl/TzlnzL
 Ol8hWqts/yZGutrmbkjrMbKeWfHeb2YsqLj/8vJ7fyEuY3n1tZG+rvOxfixQ
 iKm/LEYfks4vnJ3+EyxEqS+5i4Wk/wdTgqgK
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$9172#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[1, 0, 0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$3955#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[1, 0, 0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV13k4VF8YB3ASJbJkCeWXPVvSYg3ntS9lnZAk2SWyMwZZsqWkKCLZipGo
 7BVSpIUsyVJREVG2O5K99Dvz1zyfZ+4zc857z33f7xV19rVy28DAwACMDAz0
 T8XaxsfV7Fzo7rH7EnIM3UiOrGw67j+DKuJZytREPqKDV12Eiv3/osTjZyPt
@@ -22204,14 +22301,16 @@ Oy2p8N4hsI9uMeiIliNRYVeMWzndXLLLn4xtqTCyOc2B7um/pqkJjlRwzNnS
 pI09GuDScN2JCoa2dzLp/jRB/nnHhQoWb6396H797rZuiwcVBsv/idLdZPDY
 r+c0Fb6tL60Cdm19562RM1QQfL+pl+4yxbE2mg8VXuzcW0737aKVpX++VJDq
 9Emg+39+D2kY
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$9226#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[0, 0.5, 0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$4009#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0, 0.5, 0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV13c8lV8YAHBKKSMpMlpI2RIy4zxGVpHMkKyLUva63GulKCWpFJKVncim
 NIXMyCjyM1JE3NfIiOJ37l/38/28n/t+znnO8z7neQQdPU2cNzAwMHgxMjDQ
 f2UqX9aUs21HJ1WTk5KSapAEWcFwzHsaHRNTZbmdXIPk4534c7z/odoDh5J/
@@ -22332,14 +22431,16 @@ fHlXPRfy4+WiCrDlLTIPsZ/KBcHwfXaF2BItVaZ7TueC+7mUJLqFoC1cwjQX
 rrEuddG9XXy5X98yF2YEtfSeYk/9M4yLssuFUXelw0XYoz5OtQkOucA0m3qe
 7v5x8kSWUy6EfvuWQfeHzsdada65cMx+I1cx9mudGq9PF3LBgWv4JN2VL9of
 jVzMhayo5Kt0F8p8b55xz4W5ZtlXdD/O/rO07pkLaCFvke7/AcVwf9g=
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$9280#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[1, 0.5, 0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$4063#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[1, 0.5, 0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV1nk8lF0bB3A9FSqisveoyBrKY9/Phcm+7ynJOnYzCKGyZC1JUkKImBKS
 iCwpS0SWQrwoUhFzM4iUVO/p/mc+38/9x5xzruv6nVvINdDK4x8mJib2TUxM
 f39lHzc9qWbjRJ8y5PFDR1LhSqbT1HlkL1b/9Y0yHSmkuwmUUH+hzjAO2390
@@ -22429,14 +22530,16 @@ UIzdnAbR1XsljmBLddda/2tJA1M/lofy2MLQEy1lTQMPOWdlFWzOQ99HDe1p
 MGzmoKGNTfwyTUtwpoHm5evi1tgfg9waM11oQJxlzbXHHp0Jn73jRoN8vSX2
 E9idr4t0W8k08OmUnnPHbtZ7QnnjTQNZhVgbb+zHDb23PvjSwPa9daM/dpns
 p65FfxocOVAkFIRdVPxj7U8gDbitqRdCsf8PDZhunQ==
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$9334#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[0.5, 0, 0.5], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$4117#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0.5, 0, 0.5], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwd1nc4110UAHBFVvYKCZlFSTJC3BMtiYyoREmiZaUkSkb23pvfQoTKFpWo
 KL2ZSVYke/xISmW895s/eD6P73PPPeeeO7bauZhdXM/AwLAR/yL+Klc8qy7j
 4EFFJ/nwTxxS9FQ3GnWbQR4u2WKrm+KQauwF0Vy3FWRmn3o3UTEOKSwIBu8Q
@@ -22604,14 +22707,16 @@ cR7PgzIzC1nivajYXGkuZpoHTZKaDISl4D9fRfM8CDGW6rXB5lFY6jE4mQfn
 FphiCU+vGEUHncuDljCOFWvs4esXahPP50GGj1g34Z4xzwnahTx4KadSSrip
 jarf4JgHV587Xyb84lC1a/vlPBBrSDxAuKLmQ+bQ1Tzwzq2XIFyo/O3dnFMe
 SLgv/jmDTc35/WvNJQ8y9yh1Ef4fMsX6aQ==
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$9388#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                GrayLevel[0], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$4171#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  GrayLevel[0], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwVz3k41IkfB3C2jWjE+hkkSnIkkUomFZ8PEip3jjZFaIbKMR0SSrE5EpZc
 kSMyU7aUKzyufmxp82M7JnZdU3014/46yjEb9vv7PM/7eT+v/96fjT7Bzqd+
 EBMTu0Ll/234rLGuiiYHo4yd1BGgF2ZsJ2CPw+LlxAwGZaNUXxUOexEi8jUL
@@ -22656,14 +22761,16 @@ cU3PhYv9oqrMT5Tltsz32Lpz0UK6M01AeWzRLiXWi4v6Z0Vhk5SJc74NGSe5
 KPL6Y2Kaco8wbPi+LxfVc9b5fqP86m2xZSuLi24edtYiys0H6kLeBXCRl2VQ
 853ys/rOvE9nuHgjPVNrmfIjw8HXk4Fc3LQ1Nk38OwnFJQtzy8Fc9Nm3tLiC
 8r/Ju98y
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$9442#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[0, 1, 1], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$4225#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[0, 1, 1], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV1nk4lN0bB3D7FpEoLbKUQimJQcV9y1Kyk0HCMEqrMSkt3hKVFiKJsi/F
 qLeUsVai0oYUWUM88zy8lQiRJOX3/P4417k+f51zvvd9rnM0AjiuO0WEhITe
 0OP/s37Z4wclsgoQMClMqxFWHmU4/McdgoizcWwLpUYwTGAvzOf+AUGKTNyU
@@ -22734,14 +22841,16 @@ nHhoNrz3Sg3tlfXlbotdeHiy4FPkM9qa2HBqpRsPJ+qlDj6lraA72WnrwUPb
 Tsa2atqDfxzio/14mNRkrP6INnWQXZnkz8OilAalh7Q7Px39cpPNwxMfxWQe
 0H7ddMOyJoiH3SzmRBntapsHIe/38LChjzNUSrvs0dsMwT4eah/Q6S+hfUe/
 r27kAA+XpEd9LKZ9I+/XzxkOD7vmhrfxaf8P1Y4WTg==
-                 "]]}, 
-               Annotation[#, 
-                "Charting`Private`Tag$9496#1"]& ]}, {}}, {{{}, {}, 
-              TagBox[{
-                RGBColor[1, 0, 1], 
-                Thickness[0.005], 
-                Opacity[1.], 
-                LineBox[CompressedData["
+                  "]]}, 
+                Annotation[#, 
+                 "Charting`Private`Tag$4279#1"]& ]}}, {}}, {{{{}, {}, 
+               TagBox[{
+                 Directive[
+                  Opacity[1.], 
+                  AbsoluteThickness[1.6], 
+                  RGBColor[1, 0, 1], 
+                  Thickness[0.005]], 
+                 LineBox[CompressedData["
 1:eJwV1Gk4VfsXB3AkkiGVKZySJEIJkQy/pRDdkFmEw+GQTEeREImEREIyhIhT
 VHIyFir6d5UbkSiJaKBt2hslbvL/3Rf72c/n1V57re9amz2DbLx5uLi4XuLn
 v7d6bVNDtZAoChFTtlxenkYq4doW31iTKEZ20zAXF4m00hnSZawl5Gg7ZieJ
@@ -22811,46 +22920,57 @@ Xp1VsWUDCt3kH48tuv1Xv7kjG2xMnY5HY08sWaQluLOhbe3FmBDszyGMxiwP
 NqTObUgKwu4fDf9+k8EGdvDJTH/stq6S/a0+bJgVTrzPxH5s2hDcfYwND2TQ
 UwZ27aOO68PH2TCa1/SGjn1H/ctLMoANb+J5xlyxS0oX5peD2NDyj9AfZ+z/
 A/kDFVs=
-                 "]]}, Annotation[#, "Charting`Private`Tag$9550#1"]& ]}, {}}},
-            AspectRatio -> NCache[GoldenRatio^(-1), 0.6180339887498948], Axes -> 
-           False, AxesLabel -> {None, None}, AxesOrigin -> {0, 0}, 
-           BaseStyle -> {PrintPrecision -> 2}, DisplayFunction -> Identity, 
-           Frame -> {{True, False}, {True, False}}, 
-           FrameLabel -> {{None, None}, {None, None}}, 
-           FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
-           GridLines -> {None, None}, GridLinesStyle -> Directive[
-             GrayLevel[0.5, 0.4]], ImagePadding -> All, 
-           Method -> {
-            "DefaultBoundaryStyle" -> Automatic, 
-             "DefaultGraphicsInteraction" -> {
-              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-               "Effects" -> {
-                "Highlight" -> {"ratio" -> 2}, 
-                 "HighlightPoint" -> {"ratio" -> 2}, 
-                 "Droplines" -> {
-                  "freeformCursorMode" -> True, 
-                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-             "DefaultMeshStyle" -> AbsolutePointSize[6], "ScalingFunctions" -> 
-             None, "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
-                 (Identity[#]& )[
-                  Part[#, 1]], 
-                 (Identity[#]& )[
-                  Part[#, 2]]}& ), "CopiedValueFunction" -> ({
-                 (Identity[#]& )[
-                  Part[#, 1]], 
-                 (Identity[#]& )[
-                  Part[#, 2]]}& )}}, PlotRange -> {{0, 3000}, {0., 1.2}}, 
-           PlotRangeClipping -> True, PlotRangePadding -> {{
-              Scaled[0.02], 
-              Scaled[0.02]}, {0, 0}}, Ticks -> {Automatic, Automatic}], {
-          540, -333.73835392494317`}, 
+                  "]]}, 
+                Annotation[#, "Charting`Private`Tag$4333#1"]& ]}}, {}}}, {
+           PlotRange -> {{0, 3000}, {0., 1.2}}, 
+            BaseStyle -> {PrintPrecision -> 2}, Axes -> False, 
+            Frame -> {{True, False}, {True, False}}, DisplayFunction -> 
+            Identity, Ticks -> {Automatic, Automatic}, AxesOrigin -> {0, 0}, 
+            FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
+            GridLines -> {None, None}, DisplayFunction -> Identity, 
+            PlotRangePadding -> {{
+               Scaled[0.02], 
+               Scaled[0.02]}, {0, 0}}, PlotRangeClipping -> True, 
+            ImagePadding -> All, DisplayFunction -> Identity, AspectRatio -> 
+            NCache[GoldenRatio^(-1), 0.6180339887498948], 
+            Axes -> {True, True}, AxesLabel -> {None, None}, 
+            AxesOrigin -> {0, 0}, DisplayFunction :> Identity, 
+            Frame -> {{False, False}, {False, False}}, 
+            FrameLabel -> {{None, None}, {None, None}}, 
+            FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
+            GridLines -> {None, None}, GridLinesStyle -> Directive[
+              GrayLevel[0.5, 0.4]], 
+            Method -> {
+             "DefaultBoundaryStyle" -> Automatic, 
+              "DefaultGraphicsInteraction" -> {
+               "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+                "Effects" -> {
+                 "Highlight" -> {"ratio" -> 2}, 
+                  "HighlightPoint" -> {"ratio" -> 2}, 
+                  "Droplines" -> {
+                   "freeformCursorMode" -> True, 
+                    "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+              "DefaultMeshStyle" -> AbsolutePointSize[6], "ScalingFunctions" -> 
+              None, "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+                  (Identity[#]& )[
+                   Part[#, 1]], 
+                  (Identity[#]& )[
+                   Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+                  (Identity[#]& )[
+                   Part[#, 1]], 
+                  (Identity[#]& )[
+                   Part[#, 2]]}& )}}, 
+            PlotRange -> {{0., 2999.99993877551}, {0., 10.}}, 
+            PlotRangeClipping -> True, PlotRangePadding -> {{
+               Scaled[0.02], 
+               Scaled[0.02]}, {Automatic, Automatic}}, 
+            Ticks -> {Automatic, Automatic}}], {540, -333.73835392494317`}, 
           ImageScaled[{0.5, 0.5}], {360, 222.49223594996212`}, 
           BaseStyle -> {
            Graphics3DBoxOptions -> {SphericalRegion -> False}}]}}, {}}, 
-      ImageSize -> {502.66666666666663`, Automatic}, 
-      PlotRangePadding -> {6, 5}], "\"Time (minutes)\"", 
-     "\"Normalized Component Concentration\""}, "Labeled", 
-    DisplayFunction -> (GridBox[{{
+      ImageSize -> Automatic, {PlotRangePadding -> {6, 5}}], 
+     "\"Time (minutes)\"", "\"Normalized Component Concentration\""}, 
+    "Labeled", DisplayFunction -> (GridBox[{{
         ItemBox[
          RotationBox[#3, BoxRotation -> 1.5707963267948966`], 
          DefaultBaseStyle -> "LabeledLabel"], 
@@ -23118,23 +23238,26 @@ A/kDFVs=
        RowBox[{"Placed", "[", 
          RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
  CellChangeTimes->{{3.8932621524430037`*^9, 3.893262165709423*^9}, 
-   3.8932622864220934`*^9, 3.8932623563229685`*^9, 3.8932624657007933`*^9},
- CellLabel->"Out[89]=",ExpressionUUID->"89d9c2f8-26a3-4e78-ac5a-65c8dc68ebc1"]
+   3.8932622864220934`*^9, 3.8932623563229685`*^9, 3.8932624657007933`*^9, 
+   3.893526786970395*^9},
+ CellLabel->"Out[40]=",ExpressionUUID->"f2d9242f-ea50-444d-801e-a769635abce4"]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Export", "[", 
-  RowBox[{"\"\<../SavedFigures/WYWDTime.tiff\>\"", ",", "finalImage"}], 
-  "]"}]], "Input",
+  RowBox[{
+  "\"\<../SavedFigures/WYWDTime.tiff\>\"", ",", "finalImage", ",", " ", 
+   RowBox[{"ImageResolution", "->", "500"}]}], "]"}]], "Input",
  CellChangeTimes->{{3.893262551429138*^9, 3.893262554352208*^9}, {
-  3.8932625899690003`*^9, 3.8932626193761716`*^9}},
- CellLabel->"In[90]:=",ExpressionUUID->"5782a855-ff49-4c63-9189-296559d85756"],
+  3.8932625899690003`*^9, 3.8932626193761716`*^9}, {3.893526767670929*^9, 
+  3.893526775004734*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"5782a855-ff49-4c63-9189-296559d85756"],
 
 Cell[BoxData["\<\"../SavedFigures/WYWDTime.tiff\"\>"], "Output",
- CellChangeTimes->{3.893262622931156*^9},
- CellLabel->"Out[90]=",ExpressionUUID->"e74c455f-f860-4978-8da6-4201c72ba510"]
+ CellChangeTimes->{3.893262622931156*^9, 3.893526788123438*^9},
+ CellLabel->"Out[41]=",ExpressionUUID->"39e13d83-fcb6-4c09-9eff-230ec44cb3fd"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -23163,64 +23286,64 @@ Cell[815, 28, 30871, 845, 1513, "Input",ExpressionUUID->"f9ea3c15-7956-4994-a584
 Cell[31689, 875, 12513, 280, 1113, "Input",ExpressionUUID->"65d40331-61c5-4eff-9a4e-035ef6ca5414"],
 Cell[CellGroupData[{
 Cell[44227, 1159, 322, 6, 28, "Input",ExpressionUUID->"bcc83b1a-8515-4fe1-8b9f-2629adbf9a30"],
-Cell[44552, 1167, 279375, 4977, 261, "Output",ExpressionUUID->"ee1de053-e4b7-4acf-b0b8-285707b404de"]
+Cell[44552, 1167, 279401, 4978, 261, "Output",ExpressionUUID->"40436ab9-cb60-4541-bd4b-9793b94a8916"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[323964, 6149, 1157, 26, 67, "Input",ExpressionUUID->"2d2ab8c0-d299-4964-aecb-633d7cbd505e"],
-Cell[325124, 6177, 13243, 236, 246, "Output",ExpressionUUID->"52ed33f3-a867-476f-bf2a-35d82c1b9ab2"]
+Cell[323990, 6150, 1157, 26, 67, "Input",ExpressionUUID->"2d2ab8c0-d299-4964-aecb-633d7cbd505e"],
+Cell[325150, 6178, 13271, 237, 246, "Output",ExpressionUUID->"899bf957-5d1c-46b9-9e08-8321ee50a5b5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[338404, 6418, 692, 15, 28, "Input",ExpressionUUID->"dd977b21-e552-44d0-98e4-b482f2d2b16b"],
-Cell[339099, 6435, 20597, 356, 247, "Output",ExpressionUUID->"ce141cd7-e778-4081-99ac-7bc2bc4fe4ee"]
+Cell[338458, 6420, 692, 15, 28, "Input",ExpressionUUID->"dd977b21-e552-44d0-98e4-b482f2d2b16b"],
+Cell[339153, 6437, 20624, 357, 247, "Output",ExpressionUUID->"c0f8f001-9ff7-4761-83d5-3a0f1345e3a0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[359733, 6796, 484, 11, 28, "Input",ExpressionUUID->"d4be8093-b4b0-4a33-9d08-2a931fa784d6"],
-Cell[360220, 6809, 12148, 218, 232, "Output",ExpressionUUID->"1e49d163-4514-4002-a82b-fddcb6867527"]
+Cell[359814, 6799, 484, 11, 28, "Input",ExpressionUUID->"d4be8093-b4b0-4a33-9d08-2a931fa784d6"],
+Cell[360301, 6812, 12173, 219, 232, "Output",ExpressionUUID->"2663ab12-c5e2-45b5-9084-97d0c929e143"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[372405, 7032, 627, 14, 28, "Input",ExpressionUUID->"e9df227b-75b3-4dd7-b595-6a5e9d67897f"],
-Cell[373035, 7048, 18417, 320, 247, "Output",ExpressionUUID->"d49a7030-f9f6-483b-8953-6d8a48383dd1"]
+Cell[372511, 7036, 627, 14, 28, "Input",ExpressionUUID->"e9df227b-75b3-4dd7-b595-6a5e9d67897f"],
+Cell[373141, 7052, 18444, 321, 247, "Output",ExpressionUUID->"6ff6f9d3-2ad9-49d4-911a-e9396d5b942d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[391489, 7373, 509, 11, 28, "Input",ExpressionUUID->"3a786d6e-0ff9-449f-83df-afc0f2a59aa5"],
-Cell[392001, 7386, 8520, 159, 225, "Output",ExpressionUUID->"17a56c6f-b46c-4ca1-90d7-17434d88abb3"]
+Cell[391622, 7378, 509, 11, 28, "Input",ExpressionUUID->"3a786d6e-0ff9-449f-83df-afc0f2a59aa5"],
+Cell[392134, 7391, 8543, 160, 225, "Output",ExpressionUUID->"44ad0f0c-fc4b-496b-b3bb-875608fab6ea"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[400558, 7550, 605, 14, 28, "Input",ExpressionUUID->"dbc8dc9e-78fb-4c71-a39f-8e496d228a1a"],
-Cell[401166, 7566, 21822, 376, 244, "Output",ExpressionUUID->"41cd759b-48a5-4759-9bc6-b1f18abd0848"]
+Cell[400714, 7556, 605, 14, 28, "Input",ExpressionUUID->"dbc8dc9e-78fb-4c71-a39f-8e496d228a1a"],
+Cell[401322, 7572, 21849, 377, 244, "Output",ExpressionUUID->"db5b8fe5-b4d4-49e1-99bd-9548daeb2e0a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[423025, 7947, 579, 14, 28, "Input",ExpressionUUID->"bb59bfba-a475-4a9d-8134-05d9b376fa8d"],
-Cell[423607, 7963, 20598, 356, 246, "Output",ExpressionUUID->"ac598fd1-9b43-4d66-8654-41fef31a4d6b"]
+Cell[423208, 7954, 579, 14, 28, "Input",ExpressionUUID->"bb59bfba-a475-4a9d-8134-05d9b376fa8d"],
+Cell[423790, 7970, 20623, 357, 246, "Output",ExpressionUUID->"205c82bd-466a-404a-ab75-f440870628b3"]
 }, Open  ]],
-Cell[444220, 8322, 280, 6, 35, "Text",ExpressionUUID->"a68136cb-8468-4b2e-aa61-c2d691fffd9f"],
+Cell[444428, 8330, 280, 6, 35, "Text",ExpressionUUID->"a68136cb-8468-4b2e-aa61-c2d691fffd9f"],
 Cell[CellGroupData[{
-Cell[444525, 8332, 10780, 251, 390, "Input",ExpressionUUID->"526f1283-fd78-42b3-b111-c4e659768237"],
-Cell[455308, 8585, 120562, 2011, 246, "Output",ExpressionUUID->"2bc151a5-4b3e-469d-a836-e4d7d56c9a02"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[575907, 10601, 448, 8, 28, "Input",ExpressionUUID->"44c33074-73a1-47a9-8030-bed54797c3d7"],
-Cell[576358, 10611, 56685, 963, 241, "Output",ExpressionUUID->"99b39e49-9bc7-4a24-b9bd-219b37eb5ea3"]
+Cell[444733, 8340, 10780, 251, 390, "Input",ExpressionUUID->"526f1283-fd78-42b3-b111-c4e659768237"],
+Cell[455516, 8593, 120584, 2011, 246, "Output",ExpressionUUID->"939fb840-a595-41bc-8d49-b6410bf899a2"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[633080, 11579, 348, 7, 28, "Input",ExpressionUUID->"bbf9ac0d-db51-4739-9838-152455d7d866"],
-Cell[633431, 11588, 49611, 847, 246, "Output",ExpressionUUID->"aeabf2f7-9f2e-47d7-80fa-324eb065495f"]
+Cell[576137, 10609, 448, 8, 28, "Input",ExpressionUUID->"44c33074-73a1-47a9-8030-bed54797c3d7"],
+Cell[576588, 10619, 56713, 964, 241, "Output",ExpressionUUID->"d70e27a0-495c-48e1-8799-9e10a4686b29"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[683079, 12440, 346, 7, 28, "Input",ExpressionUUID->"865782f6-f325-4d0e-96ee-5201aa29a73b"],
-Cell[683428, 12449, 50766, 867, 246, "Output",ExpressionUUID->"761d202e-3b13-4a24-9d6c-a9b3d9874b7c"]
+Cell[633338, 11588, 348, 7, 28, "Input",ExpressionUUID->"bbf9ac0d-db51-4739-9838-152455d7d866"],
+Cell[633689, 11597, 49639, 848, 246, "Output",ExpressionUUID->"43d9e4b9-6b3f-4289-a224-e7f347d84090"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[734231, 13321, 872, 19, 28, "Input",ExpressionUUID->"ece7604d-0fc6-44ca-870e-6a15839a2ead"],
-Cell[735106, 13342, 279669, 4701, 239, "Output",ExpressionUUID->"d892fac3-9322-4e87-b677-e1b29a55233b"]
+Cell[683365, 12450, 346, 7, 28, "Input",ExpressionUUID->"865782f6-f325-4d0e-96ee-5201aa29a73b"],
+Cell[683714, 12459, 50787, 867, 246, "Output",ExpressionUUID->"7c94235a-b299-4a41-b30f-83bc5d388d8b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1014812, 18048, 1523, 35, 86, "Input",ExpressionUUID->"bdab6054-2c32-422a-9410-672b1390b53e"],
-Cell[1016338, 18085, 293706, 5036, 348, "Output",ExpressionUUID->"89d9c2f8-26a3-4e78-ac5a-65c8dc68ebc1"]
+Cell[734538, 13331, 872, 19, 28, "Input",ExpressionUUID->"ece7604d-0fc6-44ca-870e-6a15839a2ead"],
+Cell[735413, 13352, 279690, 4701, 239, "Output",ExpressionUUID->"510bb39a-f3b7-4d93-8f4d-c978a63b5cdc"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1310081, 23126, 328, 6, 28, "Input",ExpressionUUID->"5782a855-ff49-4c63-9189-296559d85756"],
-Cell[1310412, 23134, 185, 2, 32, "Output",ExpressionUUID->"e74c455f-f860-4978-8da6-4201c72ba510"]
+Cell[1015140, 18058, 1523, 35, 86, "Input",ExpressionUUID->"bdab6054-2c32-422a-9410-672b1390b53e"],
+Cell[1016666, 18095, 299003, 5147, 282, "Output",ExpressionUUID->"f2d9242f-ea50-444d-801e-a769635abce4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1315706, 23247, 433, 8, 28, "Input",ExpressionUUID->"5782a855-ff49-4c63-9189-296559d85756"],
+Cell[1316142, 23257, 207, 2, 32, "Output",ExpressionUUID->"39e13d83-fcb6-4c09-9eff-230ec44cb3fd"]
 }, Open  ]]
 }, Open  ]]
 }
