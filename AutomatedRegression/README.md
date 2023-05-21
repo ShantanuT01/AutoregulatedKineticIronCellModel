@@ -28,4 +28,4 @@ All regression results are stored in the subdirectory `AutomatedRegression/data/
 
 Run `scripts/mathematicagetter.py` to create the `.wls` file containing the Mathematica code for the reg functions.
 
-`GETTERFUNCTIONS.wls` contains the code for Mathematica functions.
+`logistic_functions.wls` contains the code for Mathematica functions.
