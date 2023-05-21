@@ -22,8 +22,14 @@ For Python, it is strongly recommended to use a virtual environment to run the r
 Install Anaconda for your operating system. Once the default environment (base) has been activated in the terminal, run from the main directory of this repository:
 ```
 conda create --name nameOfEnvironment python=3.9
+conda activate nameOfEnvironment
 pip install -r requirements.txt
 ```
+Once you are in the directory of the Jupyter notebook you want to open, run
+```
+jupyter notebook notebookFilePath
+``` 
+
 ### JavaScript
 
 Since JS is mostly a web-development language, you must install Node.js to run JavaScript locally. After installing Node.js, `npm` (node package manager) should be installed. 
@@ -34,6 +40,10 @@ Navigate to the `AutomatedRegression/` folder, and run `npm install`. All depend
 ## MatrixCalculations
 
 This notebook finds the reduced row echelon form.
+
+## StateData
+
+This directory contains code to generate the state values for W, Y, D, and the hypoxic states.
 
 ## SystemSolver
 
