@@ -27,18 +27,22 @@ class CellularRegulatoryMechanism:
             else:
                 # iterate through rows in dataframe to find reg function
                 species = self.sensedSpecies[rateConstant]
+                found = False
                 for i in range(len(regpooldata)):
                     row = regpooldata.iloc[i].to_dict()
-            
-                    if row[constants.SENSED_SPECIES].strip() == species and row[constants.RATE_CONSTANT].strip() == rateConstant:
-                        if row["n"] >= 1:
-                            nError += (row["n"] - 1)
+                   
+                    if row[constants.SENSED_SPECIES].strip() == species and row[constants.RATE_CONSTANT].strip().lower() == rateConstant.lower():
+                        found = True
+                        if abs(row["n"]) >= 1:
+                            nError += (abs(row["n"]) - 1)
                         else:
                             nError += (abs(1.0/row["n"]) - 1)
                         
                         meanSpecies = np.mean(constants.STATES[species])
                         spError += abs(row["SP"] - meanSpecies)/meanSpecies
-        return spError + nError
+                if not found:
+                    raise Exception(f"not found!: {species} {rateConstant}")
+        return spError, nError
 
     def getStateTransitionData(self, state):
         if state == 'Y':
