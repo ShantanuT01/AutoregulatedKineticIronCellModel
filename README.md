@@ -3,7 +3,9 @@
 
 This repository contains code for our paper. Navigate to each directory on the command line/terminal to execute code.
 
-Most code is either Jupyter (Python) notebooks or Wolfram Mathematica notebooks. For Wolfram Mathematica notebooks, you should clear the kernel (quit) before running the contents of each notebook.
+Most code is either Jupyter (Python) notebooks or Wolfram Mathematica notebooks. 
+
+For Wolfram Mathematica notebooks, you should clear the kernel (quit) before running the contents of each notebook.
 
 Some directories (such as `SteadyStateAnalysis/`) have a subdirectory for a Python module to help with data analysis (these modules will contain a blank `__init__.py` file).
 
