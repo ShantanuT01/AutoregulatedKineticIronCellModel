@@ -1,7 +1,7 @@
 # Kinetic Iron Autoregulated Cell
 
 
-This repository contains code for our paper. Navigate to each directory on the command line/terminal to execute code.
+This repository contains code for our [paper](https://doi.org/10.1371/journal.pcbi.1011701). Navigate to each directory on the command line/terminal to execute code.
 
 Most code is either Jupyter (Python) notebooks or Wolfram Mathematica notebooks. 
 
@@ -38,39 +38,54 @@ Since JS is mostly a web-development language, you must install Node.js to run J
 You can verify the installation with `npm -v`. 
 Navigate to the `AutomatedRegression/` folder, and run `npm install`. All dependencies should be installed. Ignore any warnings regarding vulnerabilities. 
 
+## Directory Structure
 
-## MatrixCalculations
+### MatrixCalculations
 
 This notebook finds the reduced row echelon form.
 
-## StateData
+### StateData
 
 This directory contains code to generate the state values for W, Y, D, and the hypoxic states.
 
-## SystemSolver
+### SystemSolver
 
 This directory contains code and data for solving the W, Y, and D state unknown variables.
 
-## AutomatedRegression
+### AutomatedRegression
 
 This directory contains code on creating logistic functions (the model's regulatory functions).
 
-## Filtering
+### Filtering
 
 This directory contains the trend rule and targeting filters. 
 
-## SteadyStateAnalysis
+### SteadyStateAnalysis
 
 This directory has code for filters regarding steady state transitions: wandering, smoothness, and reasonableness scores. 
 
-## TimeDependent
+### TimeDependent
 
 This directory has code for generating time dependent plots as well as predictions for the hypoxic state. 
 
-## Stability
+### Stability
 
 This directory has code for finding the Jacobian and eigenvalues, which help with determining stability of the model. 
 
-## SensitivityAnalysis
+### SensitivityAnalysis
 
 Sensitivity data/results are computed here. 
+
+## Citation
+```
+@article{thorat2023kinetic,
+  title={A kinetic model of iron trafficking in growing Saccharomyces cerevisiae cells; applying mathematical methods to minimize the problem of sparse data and generate viable autoregulatory mechanisms},
+  author={Thorat, Shantanu and Walton, Jay R and Lindahl, Paul A},
+  journal={PLOS Computational Biology},
+  volume={19},
+  number={12},
+  pages={e1011701},
+  year={2023},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+```
